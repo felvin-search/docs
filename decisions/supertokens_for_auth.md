@@ -2,35 +2,34 @@
 
 ## Decision
 
-We will use Supertokens as our third party authentication tool.
-Date: 14th May 2021
+We will use Supertokens as our third party authentication tool. Date: 14th May 2021
 
 ## Context
 
-- We needed to add user authentication so that users can save changes to their search profiles.
-- I (Harsh) have implemented Auth before at Project Mojo and we know that auth is tricky. It doesn't make sense to write your own auth.
+* We needed to add user authentication so that users can save changes to their search profiles.
+* I \(Harsh\) have implemented Auth before at Project Mojo and we know that auth is tricky. It doesn't make sense to write your own auth.
 
 ## Factors
 
-- Stability: The third party system shouldn't break randomly.
-- Ease of Use: If we are using a third party tool, it should actually make our job easy.
-- Are there Vendor Lock In: We should be able to move away from a tool if it is not working for us anymore.
+* Stability: The third party system shouldn't break randomly.
+* Ease of Use: If we are using a third party tool, it should actually make our job easy.
+* Are there Vendor Lock In: We should be able to move away from a tool if it is not working for us anymore.
 
 Why Supertokens
 
-- Most important factor: We don't have vendor lockin with them.
-- They are open source and we can always choose to run supertokens on our hosted instance.
-- They are very new, so they score low on ease of use and stability. Though the founders are very active and very supportive in helping us use Supertokens, so that makes up.
+* Most important factor: We don't have vendor lockin with them.
+* They are open source and we can always choose to run supertokens on our hosted instance.
+* They are very new, so they score low on ease of use and stability. Though the founders are very active and very supportive in helping us use Supertokens, so that makes up.
 
 ## Alternatives
 
-- Auth0
-- AWS Cognito
-- Firebase Auth
+* Auth0
+* AWS Cognito
+* Firebase Auth
 
 ## Expected Outcome
 
-- We shoudln't have to implement auth over and over. We won't see the impact of lack of vendor lock in anytime soon. Maybe we won't see it at all, though its a super important factor. When things like vendor lock in hits you, it hits you hard. Say 3 years down the line if Auth0 decides to do something stupid, like heavily increase the pricing, we'll have an easy way to move away. Such things can be real bad.
+* We shoudln't have to implement auth over and over. We won't see the impact of lack of vendor lock in anytime soon. Maybe we won't see it at all, though its a super important factor. When things like vendor lock in hits you, it hits you hard. Say 3 years down the line if Auth0 decides to do something stupid, like heavily increase the pricing, we'll have an easy way to move away. Such things can be real bad.
 
 ## Actual Outcome
 
@@ -42,7 +41,7 @@ The move to Supertokens has been pretty positive till now. There were numerous t
 
 The following are the issues we discussed on their discord server and how they were solved.
 
-- Endless refresh tokens being sent (17/5/2021)
+* Endless refresh tokens being sent \(17/5/2021\)
 
   **Issue**
 
@@ -54,7 +53,7 @@ The following are the issues we discussed on their discord server and how they w
 
   This was fixed by adding `/api/auth` in `apiBasePath` in both Frontend and Backend.
 
-- Having multiple domains (not sub-domains) as the `websiteDomain` (21/5/2021)
+* Having multiple domains \(not sub-domains\) as the `websiteDomain` \(21/5/2021\)
 
   **Issue**
 
@@ -66,7 +65,7 @@ The following are the issues we discussed on their discord server and how they w
 
   We later changed the `websiteDomain` based on the `process.env` for `beta.neera.ai`, this resulted in us being able to use things like sign up and sign in on both the production as well as the beta version. We decided on keeping the Netlify deploy previews only to check changes in UI.
 
-- Connecting to Supertokens DB (1/6/2021)
+* Connecting to Supertokens DB \(1/6/2021\)
 
   **Issue**
 
@@ -78,7 +77,7 @@ The following are the issues we discussed on their discord server and how they w
 
   It turned out that till one is using the managed service, they cannot connect to the Supertokens Database storing the data. This was solved by Supertokens team by giving the option of downloading the CSV on their dashboard. After they confirmed that a CSV would fulfill our needs, the released the feature in 2 days!
 
-- Supertokens Cookies not getting attached to pocket and notion requests
+* Supertokens Cookies not getting attached to pocket and notion requests
 
   **Issue**
 
@@ -88,7 +87,7 @@ The following are the issues we discussed on their discord server and how they w
 
   We weren't able to figure out why exactly this was happening, as there were numerous reasons this could have happened. While writing code to send userId from the frontend itself, the cookies started getting sent with the requests.
 
-- 1Password not working on Sign Up page (21/6/2021)
+* 1Password not working on Sign Up page \(21/6/2021\)
 
   **Issue**
 
@@ -98,7 +97,7 @@ The following are the issues we discussed on their discord server and how they w
 
   This was said to be due to use of ShadowDOM, which has been disabled while styling the sign up page. **Still needs to checked whether the issue is fixed or not**.
 
-- Overriding components in Sign up page (1/7/2021)
+* Overriding components in Sign up page \(1/7/2021\)
 
   **Issue**
 
@@ -108,7 +107,7 @@ The following are the issues we discussed on their discord server and how they w
 
   The issue got fixed by updating to a newer version of `supertokens-auth-react`. This also led to finding a bug in their new version, which prevented us to have an empty providers array in our `init()` function. I temporarily fixed it by GitHub, and removed it after a new release was made a few hours later.
 
-- Default scope not getting overwritten after providing other scope for in built provider (9/7/2021)
+* Default scope not getting overwritten after providing other scope for in built provider \(9/7/2021\)
 
   **Issue**
 
@@ -125,3 +124,4 @@ The following are the issues we discussed on their discord server and how they w
 ### 2 year review
 
 ### 5 year review
+
