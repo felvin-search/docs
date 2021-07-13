@@ -1,4 +1,4 @@
-# We will use Supertokens as our third party authentication tool
+# \[2021-05-14\] We will use Supertokens as our third party authentication tool
 
 ## Decision
 

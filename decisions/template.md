@@ -1,8 +1,12 @@
-# Title
+# Decision Journal Template
 
 ## Decision
 
 ### Date
+
+### Author
+
+Name of the single author, max two. We don't decide by committee.
 
 ## Context
 

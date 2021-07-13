@@ -1,4 +1,4 @@
-# We will use styled components to write our CSS.
+# \[2021-05-07\] We will use styled components to write our CSS.
 
 ## Decision
 
