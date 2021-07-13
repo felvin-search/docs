@@ -15,3 +15,7 @@
 * [Our site is down, what to do?](troubleshooting-and-how-tos/our-site-is-down-what-to-do.md)
 * [How to add a new subdomain](troubleshooting-and-how-tos/untitled.md)
 
+---
+
+* [Neera White Paper](neera-white-paper.md)
+
