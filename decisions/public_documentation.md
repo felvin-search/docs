@@ -48,9 +48,3 @@ Business Implications:
 
 ### 5 year review
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream
-
-=======
-
-> > > > > > > Stashed changes
-
