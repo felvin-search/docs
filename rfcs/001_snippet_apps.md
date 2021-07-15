@@ -6,6 +6,9 @@ We are building a system where anyone can create these apps, and we'll distribut
 # Why?
 Search is the most convinient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just search them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
 
+# Status
+In Progress (as of 15th July 2021)
+
 # How?
 ## End User Flow
 Same as your current experience:
@@ -63,11 +66,11 @@ Each snippet app will be a javascript/node package. The index.js should export a
 - `author`
 
 ### Snippet App Server
-TBH I am not super sure about the details here, will know by coding. We know we can take the code from DB and execute it on the server. We also know that it is possible to generate the react components on the server and push it on the client.
+TBH I am not super sure about the details here, will know by coding. We know we can take the code from DB and execute it on the server. We also know that it is possible to generate the react components on the server and push it on the client. If you can point us to specific tools or some reference implementation, that will be great!
 
 
 ### Scoring System
-Doesn't need to be fancy. Right now we'll some simple static value for each App, will more parameters later
+Doesn't need to be fancy. Right now we'll some simple static value for each App, will add more parameters later.
 
 
 # FAQ?

@@ -21,4 +21,7 @@ When in doubt, use your best judgement and move forward. You are part of the tea
 As long as it needs to be.
 
 ## How often should I write RFC?
-Do it often, its good to think about what are you doing before you do it?
+Do it often, its good to think about what are you doing before you do it.
+
+## Should I wait for the RFC process to be completed before I code things out?
+No. Do it as soon as you think its time.
