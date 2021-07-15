@@ -1,7 +1,7 @@
 # What?
 <Image>
 Snippet Apps are the small instant answer thing which you get on the top of search. It can be football scores, stock prices or notes on a topic or anything. 
-We are building a system where anyone can create these app, and we'll distribute them instantly through Neera search
+We are building a system where anyone can create these apps, and we'll distribute them instantly through Neera search
 
 # Why?
 Search is the most convinient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just such them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
