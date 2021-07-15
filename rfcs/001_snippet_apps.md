@@ -41,7 +41,7 @@ Step 1: Take the query, pass it to all registered snippet apps.
 Step 2: Process the `queryToData` functions parallely.
 Step 3: For all the apps which returned data, pass them into "scorer and ranker"
 Step 4: The "Scorer and Ranker" returns one snippet app. Factors which can be used in ranking, popularity of the plugin, query, user preference and bundle size of renderer.
-Step 5: Take the renderer of this snippet app, and pass it back to teh frontend for rendering.
+Step 5: Take the renderer of this snippet app, and pass it back to the frontend for rendering.
 
 Steps 2 to 4 happens on the server. If the app returns no data, then it means it has nothing to render.
 
@@ -64,6 +64,8 @@ Each snippet app will be a javascript/node package. The index.js should export a
 - `publishedDate`
 - `ratings`: (will implement later)
 - `author`
+- `queryToData`
+- `renderer`
 
 ### Snippet App Server
 TBH I am not super sure about the details here, will know by coding. We know we can take the code from DB and execute it on the server. We also know that it is possible to generate the react components on the server and push it on the client. If you can point us to specific tools or some reference implementation, that will be great!
@@ -75,4 +77,5 @@ Doesn't need to be fancy. Right now we'll some simple static value for each App,
 
 # FAQ?
 ## How will you prevent spam apps?
-- We'll keep the score of the new apps now, and make sure they appear only to a small set of people. If they are downvoted, they won't turn up for other people.
+- We'll make sure they appear only to a small set of people. In this period, this small set of people will have a chance to to downvote the app. If the app is downvoted, they won't turn up for other people.
+- How to ensure it appears only for small set of people? Have a beta tester program, in start, the team can manually test out all snippet app submissions. If the spammers are persistent, we'll figure something out.
