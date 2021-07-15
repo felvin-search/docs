@@ -4,7 +4,7 @@ Snippet Apps are the small instant answer thing which you get on the top of sear
 We are building a system where anyone can create these apps, and we'll distribute them instantly through Neera search
 
 # Why?
-Search is the most convinient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just such them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
+Search is the most convinient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just search them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
 
 # How?
 ## End User Flow
