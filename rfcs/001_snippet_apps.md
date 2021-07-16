@@ -73,9 +73,27 @@ TBH I am not super sure about the details here, will know by coding. We know we 
 
 ### Scoring System
 Doesn't need to be fancy. Right now we'll some simple static value for each App, will add more parameters later.
+Scoring allows us to be very flexibile with what we show to the user, the parameters in the algorithm can be rating of the app, how recently was is published, how many people used it, how fast is it and tons of other things.
 
 
 # FAQ?
 ## How will you prevent spam apps?
 - We'll make sure they appear only to a small set of people. In this period, this small set of people will have a chance to to downvote the app. If the app is downvoted, they won't turn up for other people.
-- How to ensure it appears only for small set of people? Have a beta tester program, in start, the team can manually test out all snippet app submissions. If the spammers are persistent, we'll figure something out.
+- How to ensure an snippet app appears only for small set of people? We can have a beta tester program, in start, the team can manually test out all snippet app submissions. If the spammers are persistent, we'll figure something out.
+
+## Can Snippet App providers use their servers to fetch data?
+Yes, the `dataToQuery` function can make external API calls!
+
+## Why is a snippet app server needed?
+Earlier we were loading all the snippet apps on the client side, which makes the javascript bundle really big, giving a hit to performance.
+With a snippet app server we have option to load only the javascript which is required.
+It also gives us option to run each snippet app in a sandboxed enviornment, giving us better security without compromising on extensibility.
+
+## Can we have interactive snippet apps?
+Yes, the renderer function can be any valid react component, which can potentially have interactive element. Example, we have a currency conversation app where you can change the input and output currency and also the amount.
+
+## Can we have private snippet apps?
+Yes it is possible to create snippet apps which load your personal or organizational data. Say a dashboard for your company. We'll need to add fields in the snippet app database to to check for authorization, but it will be possible to extend the same design for private apps.
+
+## Why hasn't anyone done this before?
+I don't know! Same thing can you say with anything new. Also the tech part here is non trivial, so there are actually very few people in the world who can do this.
