@@ -37,18 +37,26 @@ Each app consists of a `queryToData` function and a `renderer`. `queryToData` ta
 ![image](https://user-images.githubusercontent.com/2477788/125734831-836de41c-7aa6-4c14-8df2-950b6efbed9f.png)
 
 How will this work (end user flow):
-Step 1: Take the query, pass it to all registered snippet apps.
-Step 2: Process the `queryToData` functions parallely.
-Step 3: For all the apps which returned data, pass them into "scorer and ranker"
-Step 4: The "Scorer and Ranker" returns one snippet app. Factors which can be used in ranking, popularity of the plugin, query, user preference and bundle size of renderer.
-Step 5: Take the renderer of this snippet app, and pass it back to the frontend for rendering.
+
+**Step 1:** Take the query, pass it to all registered snippet apps.
+
+**Step 2:** Process the `queryToData` functions parallely.
+
+**Step 3:** For all the apps which returned data, pass them into "scorer and ranker"
+
+**Step 4:** The "Scorer and Ranker" returns one snippet app. Factors which can be used in ranking, popularity of the plugin, query, user preference and bundle size of renderer.
+
+**Step 5:** Take the renderer of this snippet app, and pass it back to the frontend for rendering.
 
 Steps 2 to 4 happens on the server. If the app returns no data, then it means it has nothing to render.
 
 How will this work (developer flow):
-Step 1: Developer creates the snippet app. (Will need to write tools for them to test out the snippet apps locally)
-Step 2: They submit the app on through our web form or cli tools
-Step 3: We take the package, compile it, optimize the code (maybe) and put it in the DB.
+
+**Step 1:** Developer creates the snippet app. (Will need to write tools for them to test out the snippet apps locally)
+
+**Step 2:** They submit the app on through our web form or cli tools
+
+**Step 3:** We take the package, compile it, optimize the code (maybe) and put it in the DB.
 
 ## Implementation (Details)
 ### Snippet App Spec
