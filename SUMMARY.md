@@ -15,10 +15,6 @@
 * [Our site is down, what to do?](troubleshooting-and-how-tos/our-site-is-down-what-to-do.md)
 * [How to add a new subdomain](troubleshooting-and-how-tos/untitled.md)
 
----
-
-* [Neera White Paper](neera-white-paper.md)
-
 ## Process
 
 * [What does an ideal pull request looks like?](process/what-does-an-ideal-pull-request-looks-like.md)
