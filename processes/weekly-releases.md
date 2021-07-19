@@ -19,11 +19,11 @@ We will expect continuous improvement from us, and people will grow to anticipat
 
 # What are the ways process can fail us?
 
-The process can fail us if we focus too much on the small changes and ignore the big changes. Though I trust us, that we'll see when this is happening and we will move things around accordingly.
+The process can fail us if we focus too much on the small changes and ignore the big changes. Though I trust us that we'll see when this is happening and we will move things around accordingly.
 
 # How will we know the process is working?
 
-We will know it when we see it. We'll hear from someone that they are looking forward to this week's release to see what's new.
+We will know it when we see it. Maybe, we'll hear from someone that they are looking forward to this week's release to see what's new.
 
 # How will we know the process is not working?
 
@@ -34,27 +34,27 @@ Quality of our weekly releases is an indicator of health of our organization and
 - Are we talking to users frequently enough to know their problems?
 
 It is unlikely that the release cycle is at fault, and it is unlikely that there is no improvement that we can ship.
-A potential failure mode is that we are focusing too much on short term changes and not enough on long term changes. Changing the release cycle doesn't fix that issue, it needs to fixed somewhere else.
+A potential failure mode is that we are focusing too much on short term changes and not enough on long term changes. Changing the release cycle doesn't fix that issue, it needs to be fixed somewhere else.
 
 # FAQs
 
 ## Does this means we only deploy code on Thursdays?
 
-No, we can deploy code anytime of the week, though they will be annoced on Thursdays.
+No, we can deploy code anytime of the week, though they will be announce the changes on Thursdays.
 
 ## Why Thursday?
 
-We want to release towards the end of the week. Friday releases are considered bad becase things break and at times they spill over to the weekend.
+We want to release towards the end of the week. Friday releases are considered bad because things break and at times the work spill over to the weekend. If you release things on Thursday and things break, you Friday to fix them and you can go chill on weekend.
 
 ## What if nothing really happened in the last week?
 
-Well say that in the weekly release note. Not an execuse to not do the weekly release.
+We will say that in the weekly release note. Not an excuse to not do the weekly release.
 
 ## What if I am working on a piece which takes more than a week to complete?
 
-That will happen all the time, though the hope is that at lease someone in the team will be able to release something that week.
+That will happen all the time, though the hope is that at least someone in the team will be able to release something new every week.
 
-## What if I find myself doing small just for sake of doing a release?
+## What if I find myself doing small change just for sake of doing a release?
 
 Once or twice, its okay, if we are doing it too often, then something is wrong and we need to move things around.
 
@@ -65,7 +65,7 @@ Once or twice, its okay, if we are doing it too often, then something is wrong a
 2021-07-19
 Author: Harsh Gupta
 It has been two months since we started doing a release on our company blog. I feel the process is working, things have slowed down in last few weeks and you can see it in the release notes. https://blog.neera.ai/
-Also do feel that weekly releases keep a sense of momentum.
+Also I do feel that weekly releases helping with a sense of momentum.
 
 ## 6 month
 
