@@ -1,4 +1,5 @@
 # Why document processes?
+
 - So that everyone is on the same page
 - Written aim and reasoning gives more confidence in following the process
 - Since the intended consequences are clearly specified, it easier to know when the process is working/not working, hence it is easier to decide when we need to change it or remove it all together
@@ -22,6 +23,9 @@
 ## Review
 
 ### 1 month
+
 ### 6 month
+
 ### 2 years
+
 ### 5 years
