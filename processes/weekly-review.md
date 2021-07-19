@@ -30,7 +30,7 @@ If the reviews are pushing us to continuous improvement, we know the process is 
 The process is not working if:
 
 - If we are not being honest in the review
-- People are worried about more the weekly review than the work itself
+- People are worried more about the weekly review than the work itself
 - We are not asking important questions from the review, people should feel free to tweek the template.
 
 # FAQs
