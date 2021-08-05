@@ -18,3 +18,4 @@ Neera V2:
 
 - [Tree Style Tabs](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab): Manages your firefox tabs in a tree style
 - [REST API Naming Conventions](https://restfulapi.net/resource-naming/)
+- [Scamming Netflix using dots](https://jameshfisher.com/2018/04/07/the-dots-do-matter-how-to-scam-a-gmail-user/)
