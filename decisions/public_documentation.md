@@ -14,8 +14,6 @@ Harsh Gupta
 
 13th July 2021
 
-13th July 2021
-
 ## Factors and Context
 
 * We want to have a single place to have all engineering docs
@@ -41,6 +39,31 @@ Business Implications:
 ## Actual Outcome
 
 ### 1 month review
+#### Sahil
+- Haven't added anything in the documentation yet. Wrote the review of StyledComponents and SuperTokens before the public documentation decision, didn't feel the need to update anything.
+
+
+#### Raghav
+- Didn't feel any difference with the decision make docs public. Everything I do already public. 
+- Feel change of moving docs from Notion to Github is nice. Notion has too many emojis and the content is weirdly nested.
+- I am not using documentation as frequently as I was using it earlier. We haven't documented new things here.
+- If we have a proper index/TOC in README, GitHub is more than enough for documentation. We don't need GitBook.
+- Docs should have things which 1. people can't figure out on their own, and 2. which they definitely should not forget.  Example: Checklists
+
+#### Himanshu
+- Without a community, its hard to judge to if public docs are useful or not.
+- I feel it's a brilliant thing to have the company docs public.
+- No comments on tooling, I have not opened the docs enough. The docs are way more useful for cases when we are stuck, and for new people.
+- I had forgotten about docs.neera.ai. Maybe it will be more discoverable, if link it from the main website.
+- Conscious about the value the docs provide. We should invest more time in ensuring it has meaning for the person reading the docs. Policy/Architecture/Our Approach/Milestones/Roadmaps should be added in the public docs, smaller things don't add value in the public docs.
+- The docs links should be more handy.
+
+#### Harsh
+- I feel we have not done enough with the documentation after making it public.
+- The documentation for the new efforts should also go in the this repository.
+- I was thinking the Intellectual Property imlications of this. The keeping docs public, but not keeping the code open source, make things hard enough for another business in trying to copy us. Only people reading this repository are engineers, and it makes sense for them to join us instead of trying to spin up a competitor.
+- Didn't not like gitbook. The RFCs and processes are not showing up, I don't know what is happening. Should probably use docusaurus instead.
+- I think we should add more docs. 
 
 ### 6 month review
 
