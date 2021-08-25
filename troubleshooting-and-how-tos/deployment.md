@@ -20,7 +20,7 @@ This document contains a brief explanation on how we have setup one-click deploy
 
 - **<u>Elastic Container Service(ECS) Fargate</u>**: 
 
-  Once the latest image is stored in the ECR, they need to be deployed. A service by name **ECS Fargate** handles this job of deploying the docker image. ECS Fargate is configured using a JSON file present in the `deploy` folder. The JSON is obtained from the AWS Console(Instructions to obtain JSON from AWS console are pinned in Felvin Slack). 
+  Once the latest image is stored in the ECR, they need to be deployed. A service by name **ECS Fargate** handles this job of deploying the docker image. ECS Fargate is configured using a JSON file present in the `deploy` folder. The JSON is obtained from the AWS Console(Instructions to obtain JSON from AWS console can be found at `docs/troubleshooting-and-how-tos/getting-task-def.md`). 
 
   The following are 4 important things related to ECS Fargate. The below diagram will help you get an idea of different layers of Fargate. To setup a ECS Fargate service, we need to configure the below four things.
 
