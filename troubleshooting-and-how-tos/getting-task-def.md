@@ -1,4 +1,4 @@
-# How to get the Task Definition JSON file
+# How to get the Task Definition JSON file from AWS Web Console
 1. Login into AWS Console
 2. Visit `Elastic Container Service` page, using the search bar in the console.
 3. Click on Cluster name
