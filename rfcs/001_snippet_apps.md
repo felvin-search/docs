@@ -34,7 +34,7 @@ In addition, you will be able to rate the application, and will be able to forev
 Each app consists of a `queryToData` function and a `renderer`. `queryToData` takes in the user query, and produces the data we want to display in the snippet app.
 `renderer` defines the react component which will display the data. For example, in a dictionary app, the query can be "serendipity meaning", `queryToData` will return a json with meaning and other data, and `renderer` is used to render it.
 
-![image](https://user-images.githubusercontent.com/2477788/125734831-836de41c-7aa6-4c14-8df2-950b6efbed9f.png)
+![image](/.gitbook/assets/felvin_arch.png)
 
 How will this work (end user flow):
 
