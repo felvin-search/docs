@@ -1,6 +1,6 @@
 # AWS Deployment in brief
 
-This document contains a brief explanation on how we have setup one-click deployment. By one-click deployment, we mean by just making a triggering an action on Github like pushing to master/Pull Request(making a `release` in our case), the changes are deployed without any human action. Many of the items used from the AWS menu are explained below.
+This document contains a brief explanation on how we have setup one-click deployment. By one-click deployment, we mean by just making a triggering an action on Github like pushing to master/Pull Request(making a `release` in our case), the changes are deployed without any human action. Many of the items used from the AWS menu are explained below. Before that please refer the basics of Virtual Private Cloud and Subnets explained [here](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html#vpc-subnet-basics). 
 
 - **<u>Docker</u>**: 
 
