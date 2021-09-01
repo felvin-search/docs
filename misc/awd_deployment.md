@@ -36,7 +36,7 @@ This document contains a brief explanation on how we have setup one-click deploy
 
     Here, we have only one Service, and we've set that service to spawn only 1 task. Our service has a Load Balancer. And the Load Balancer has a target group(Load Balancer and Target Group will be explained soon)
 
-4. **Cluster**: A cluster is a collection of services. We are using only one cluster, as we need only one Fargate Service.
+4. **Cluster**: A Cluster is a logical collection of services.
 
 - **<u>Load Balancer and Target Groups</u>**: 
 
