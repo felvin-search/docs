@@ -28,9 +28,9 @@ This document contains a brief explanation on how we have setup one-click deploy
 
 1. **Container Defintion**: Details of the Docker container. We need to specify the docker Image URI, which is already existing in ECR.
 
-2. **Task definition:**: A task definition is the recipe for running containers. It includes the image to run, constraints on CPU and Memory, Ports to be mapped externally, Environment variables to be set and so on. We select networking mode as awsvpc, since we're using Fargate.
+2. **Task definition**: A task definition is the recipe for running containers. It includes the image to run, constraints on CPU and Memory, Ports to be mapped externally, Environment variables to be set and so on. We select networking mode as awsvpc, since we're using Fargate.
 
-3. **Service**: A service is a collection of Tasks. The service can be of Fargate type(like ours) or EC2 type  or External type. We are using Fargate Service because on our behalf it defines resources, manages and runs the resources. Subnets are also selected when creating the service. The image is deployed in a instance in one of the subnets.The below image deplicts the hierarchy of terms Container, Task and Service.
+3. **Service**:  A Service takes a task definition and adds more details (Such as the VPC, subnets, ports, load balancers) and schedules it to be run. It also controls how many tasks will exist. The service can be of Fargate type(like ours) or EC2 type  or External type. We are using Fargate Service because on our behalf it defines resources, manages and runs the resources. 
 
    ![](https://imgur.com/XJhTotJ.png)
 
