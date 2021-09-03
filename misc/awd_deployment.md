@@ -40,11 +40,7 @@ This document contains a brief explanation on how we have setup one-click deploy
 
 - **<u>Load Balancer and Target Groups</u>**: 
 
-  After every release, Fargate spins up a new instance, and deploys the latest image. The problem here is, the Public IP address changes after every release. But to configure Domain name, we need to have a single domain address. We can't keep changing Domain Name configuration after every release.
+  After every release, Fargate creates a new task, which has a new IP Address. But to configure Domain name, we need to have a single domain address. We can't keep changing Domain Name configuration after every release.
 
-  As per [AWS Docs](https://aws.amazon.com/premiumsupport/knowledge-center/ecs-fargate-static-elastic-ip-address/), a Load Balancer is recommended to solve the above issue. The steps mentioned in the doc were followed to setup a Load Balancer. We have mentioned in our service definition that our image should be deployed in a VPC which contains 2 subnets. The Load balancer sits in front of 2 Subnets. When a request is made to the Load Balancer, it forwards the request to the instance in the VPC. In DNS configuration, we configure the IP address of this Load Balancer. The load balancer is be specified in the service.
-
-  To tell the Load Balancer where to forward the request, we need to create a `Target Group`.  A Target group contains the Private IP address of the instance to which request should be forwarded. The Target group is specified to the Load Balancer. Note that all of this is handled by Fargate on its own. Since we have specified the target group to the Service, it will automatically register the new instace's IP in the Target group. 
-
-  Now after a new release, the image is deployed in a new instance in our VPC. The private IP address of the instance is updated in the Target Group. So, when a request is hit to the Load Balancer, the request is forwarded now to the new IP address.
-
+  As per [AWS Docs](https://aws.amazon.com/premiumsupport/knowledge-center/ecs-fargate-static-elastic-ip-address/), a Load Balancer is recommended to solve the above issue. The steps mentioned in the doc were followed to setup a Load Balancer. 
+  The Load balancer is provided a target group, which is aware of the IP address where the image is deployed. After a new deployment, Fargate registers the new Task's IP Address with the Target Group.
