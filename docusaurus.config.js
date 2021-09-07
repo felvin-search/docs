@@ -11,8 +11,11 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  // These are used in deploying the site to GitHub pages
+  // https://docusaurus.io/docs/deployment#deploying-to-github-pages
+  trailingSlash: false,
   organizationName: "felvin-search", // Usually your GitHub org/user name.
-  projectName: "instant-apps", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
   presets: [
     [
