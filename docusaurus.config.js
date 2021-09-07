@@ -71,7 +71,7 @@ module.exports = {
             items: [
               {
                 label: "About",
-                to: "/about-us",
+                to: "/company/about-us",
               },
             ],
           },
