@@ -5,7 +5,7 @@ module.exports = {
     {
       type: "category",
       label: "Features",
-      items: ["features/instant-apps/index", "features/profiles/index"],
+      items: ["features/instant-apps/overview", "features/profiles/overview"],
       collapsed: false,
     },
     {
@@ -16,8 +16,9 @@ module.exports = {
         {
           type: "doc",
           label: "Overview",
-          id: "features/instant-apps/index",
+          id: "features/instant-apps/overview",
         },
+        "features/instant-apps/getting-started",
         "features/instant-apps/architecture",
       ],
     },

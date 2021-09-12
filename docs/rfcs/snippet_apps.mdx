@@ -2,15 +2,23 @@
 title: Snippet Apps
 ---
 
+import FelvinArchImage from "@site/static/img/felvin_arch.png";
+
 # What?
 
-<img width="933" alt="snippetApp" src="https://user-images.githubusercontent.com/2477788/114712160-66f05080-9d4d-11eb-8554-6b41ff561e99.png" />
-Snippet Apps are the small instant answer thing which you get on the top of search. It can be football scores, stock prices or notes on a topic or anything.
-We are building a system where anyone can create these apps, and we'll distribute them instantly through Neera search
+<img
+  width="933"
+  alt="snippetApp"
+  src="https://user-images.githubusercontent.com/2477788/114712160-66f05080-9d4d-11eb-8554-6b41ff561e99.png"
+/>
+Snippet Apps are the small instant answer thing which you get on the top of search.
+It can be football scores, stock prices or notes on a topic or anything. We are building
+a system where anyone can create these apps, and we'll distribute them instantly
+through Neera search
 
 # Why?
 
-Search is the most convinient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just search them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
+Search is the most convenient ways to distribute apps. If you want a timer, or want to convert currency or calculator, no one install these apps, you just search them. Though the numbers and kind of apps you find in Google/Bing is still limited the bandwidth, capacity and motivation of these companies. We can do much better!
 
 # Status
 
@@ -30,7 +38,7 @@ Same as your current experience:
 
 - Step 1: You decide what app to create. (Will talk about details of this later)
 - Step 2: You submit the app to our app store.
-- Step 3: Your app is visibile to the world, anyone can start using it instantly.
+- Step 3: Your app is visible to the world, anyone can start using it instantly.
 - Step 4: You make improvements to your app so that lots of people use it, then you make money as we share a part of the ad revenue.
 
 ## Implementation
@@ -40,14 +48,14 @@ Same as your current experience:
 - The snippet apps should load fast for the end user
 - We want flexibility in determining which apps should be visible to the end user
 - The development + publishing cycle for the app developer should be as small as possible
-- Right now we are building for ~100 snippet apps, but the system should be flexibile enough for us to upgrade it to support 10K snippet apps.
+- Right now we are building for ~100 snippet apps, but the system should be flexible enough for us to upgrade it to support 10K snippet apps.
 
 ### High Level Overview
 
 Each app consists of a `queryToData` function and a `renderer`. `queryToData` takes in the user query, and produces the data we want to display in the snippet app.
 `renderer` defines the react component which will display the data. For example, in a dictionary app, the query can be "serendipity meaning", `queryToData` will return a json with meaning and other data, and `renderer` is used to render it.
 
-![image](../assets/felvin_arch.png)
+<img alt="architecture" src={FelvinArchImage} />
 
 How will this work (end user flow):
 
@@ -79,7 +87,7 @@ Each snippet app will be a javascript/node package. The index.js should export a
 
 - `name` : String
 - `Description`: String
-- `queryToData`: Function `{query, options} => Object`, query is a string passed from the main Neera application, additional paramaters will be in options. In the first implementation `options` are empty, any new parameter along with query will go into this. The output can be any serializable javascript object.
+- `queryToData`: Function `{query, options} => Object`, query is a string passed from the main Neera application, additional parameters will be in options. In the first implementation `options` are empty, any new parameter along with query will go into this. The output can be any serializable javascript object.
 - `renderer`: A react component, the output of `queryToData` will be passed to this.
 
 ### Snippet App DB Schema
