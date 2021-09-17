@@ -52,7 +52,7 @@ module.exports = {
             label: "Docs",
           },
           {
-            href: "https://blog.neera.ai",
+            href: "https://blog.felvin.com",
             label: "Blog",
             position: "left",
           },
@@ -89,7 +89,7 @@ module.exports = {
             items: [
               {
                 label: "Blog",
-                to: "https://blog.neera.ai",
+                to: "https://blog.felvin.com",
               },
               {
                 label: "GitHub (Instant Apps)",
