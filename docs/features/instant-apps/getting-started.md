@@ -20,7 +20,7 @@ Start by thinking about what search queries your app should render for. The most
 For example, if you are creating an app which shows weather information, you would want to target search queries which contain "weather" or "temperature" or queries like "will it rain today".
 If you want to create an app which shows football scores, you may want to target search queries containing names of top leagues or clubs.
 
-Once you have narrowed down the queries, start writing your app's `dataToQuery` function.
+Once you have narrowed down the queries, start writing your app's `queryToData` function.
 
 <details>
 <summary>Example, this is the definition of the dictionary app</summary>
@@ -42,7 +42,7 @@ export default DictionaryApp;
 
 ## Step 2: Convert Query into Data
 
-Whenever a user searches something on felvin.com, the `dataToQuery` function of all the instant apps available is called with the query. Hence, the first thing your app should do is return a [falsy value](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) (undefined, null, false) if the query does not match the pattern your app is looking for.
+Whenever a user searches something on felvin.com, the `queryToData` function of all the instant apps available is called with the query. Hence, the first thing your app should do is return a [falsy value](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) (undefined, null, false) if the query does not match the pattern your app is looking for.
 
 Next step, try converting the query into some data which can be displayed on the web. This step can involve making external API requests or using some library to process the query.
 
