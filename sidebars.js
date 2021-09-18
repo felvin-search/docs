@@ -13,11 +13,6 @@ module.exports = {
       label: "Instant Apps",
       collapsed: false,
       items: [
-        {
-          type: "doc",
-          label: "Overview",
-          id: "features/instant-apps/overview",
-        },
         "features/instant-apps/getting-started",
         "features/instant-apps/architecture",
       ],
