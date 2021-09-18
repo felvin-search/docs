@@ -54,6 +54,15 @@ module.exports = {
         },
         {
           type: "category",
+          label: "felvin.com",
+          items: [
+            "team-docs/felvin.com/overview",
+            "team-docs/felvin.com/release-flow",
+            "team-docs/felvin.com/deployment-runbook",
+          ],
+        },
+        {
+          type: "category",
           label: "Incident Reports",
           items: ["incident-reports/2021-08-13-localstorage-schema-error"],
         },
