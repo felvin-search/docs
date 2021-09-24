@@ -14,7 +14,7 @@ import FelvinArchImage from "@site/static/img/felvin_arch.png";
 Snippet Apps are the small instant answer thing which you get on the top of search.
 It can be football scores, stock prices or notes on a topic or anything. We are building
 a system where anyone can create these apps, and we'll distribute them instantly
-through Neera search
+through Felvin search
 
 # Why?
 
@@ -87,7 +87,7 @@ Each snippet app will be a javascript/node package. The index.js should export a
 
 - `name` : String
 - `Description`: String
-- `queryToData`: Function `{query, options} => Object`, query is a string passed from the main Neera application, additional parameters will be in options. In the first implementation `options` are empty, any new parameter along with query will go into this. The output can be any serializable javascript object.
+- `queryToData`: Function `{query, options} => Object`, query is a string passed from the main Felvin application, additional parameters will be in options. In the first implementation `options` are empty, any new parameter along with query will go into this. The output can be any serializable javascript object.
 - `renderer`: A react component, the output of `queryToData` will be passed to this.
 
 ### Snippet App DB Schema

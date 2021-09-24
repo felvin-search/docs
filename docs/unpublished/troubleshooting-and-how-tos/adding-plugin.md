@@ -1,12 +1,12 @@
-# Adding a Plugin to Neera
+# Adding a Plugin to Felvin
 
-This document explains how to add a third-party app search plugin like Pocket, Notion to Neera Search. This enables users to search documents present in these apps directly via Neera. For every plugin, a new Github Repository must be made. Once you have decided on the app, whose search you want to include follow these steps
+This document explains how to add a third-party app search plugin like Pocket, Notion to Felvin Search. This enables users to search documents present in these apps directly via Felvin. For every plugin, a new Github Repository must be made. Once you have decided on the app, whose search you want to include follow these steps
 
 # 1. Implementing OAuth
 
 ## Logistical Guidelines:
 
-Since to access the documents authentication is required, you need to include the app's OAuth in Neera. There are 2 ways to include the app's OAuth in Neera
+Since to access the documents authentication is required, you need to include the app's OAuth in Felvin. There are 2 ways to include the app's OAuth in Felvin
 
 - **Use a Library**: There are some libraries which provide a OAuth for a large number of parties([ref](https://github.com/simov/grant#callback-session)) or sometime you can find app-specific OAuth libraries([ref](https://www.npmjs.com/package/googleapis)). Such libraries if properly implemented complete the job in few lines of code.
 
@@ -14,13 +14,13 @@ Since to access the documents authentication is required, you need to include th
 
 - **Implement OAuth from Scratch**: If you have a basic understanding of OAuth Protocol, implementing OAuth from Scratch is not a scary thing as it sounds. Almost all parties follow the [standard OAuth](https://datatracker.ietf.org/doc/html/rfc6749) flow. Few follow a variant of the standard, that too with minor changes.
 
-    The advantage here is that you have control over every step. You can design the flow as your requirements. You will have better clarity on the flow of requests especially in a situation like Neera, where there are 2 backends - plugin, Neera Backend.
+    The advantage here is that you have control over every step. You can design the flow as your requirements. You will have better clarity on the flow of requests especially in a situation like Felvin, where there are 2 backends - plugin, Felvin Backend.
 
     But if implementing from scratch is too complicated, and there is a neat alternative library using a library can be more beneficial. For example, Google's OAuth flow is too complicated and there is an official OAuth library by Google to simplify the job. Hence, the Google drive plugin was written using the official [googleapis npm](https://www.npmjs.com/package/googleapis) library.
 
     **Some important points to be kept in mind. The following points assume that you have a basic understanding of OAuth. If not, watch this short [YouTube video](https://youtu.be/CPbvxxslDTU):**
 
-    - Each app gives you a Client ID and a Client Secret. While Client ID is required on the frontend, for the user to give Neera access, **Client Secret should not be exposed in any case**. If someone has both Neera integrations Client ID and Client Secrets, they can do things like sending too many improper requests, which can lead to our integration getting banned.
+    - Each app gives you a Client ID and a Client Secret. While Client ID is required on the frontend, for the user to give Felvin access, **Client Secret should not be exposed in any case**. If someone has both Felvin integrations Client ID and Client Secrets, they can do things like sending too many improper requests, which can lead to our integration getting banned.
 
         Hence, requests involving Client Secret should be made from plugin only rather than the frontend.
 
@@ -48,18 +48,18 @@ Here is the flow of a third party app's service
 }
 ```
 
-- If the relevant app's access token is not found in localStorage, the frontend makes a request to Neera Backend to check if the app's access token is present in DB.
-- Neera Backend returns a JSON of the same above format, saved in the `access_tokens` column. The frontend saves the JSON in localStorage and checks if the app's access token is present or not. (Note that only strings can be saved in localStorage. Hence the JSON is stringified using `JSON.stringfy` before saving in localStorage. And while accessing the tokens, it is parsed using `JSON.parse`)
+- If the relevant app's access token is not found in localStorage, the frontend makes a request to Felvin Backend to check if the app's access token is present in DB.
+- Felvin Backend returns a JSON of the same above format, saved in the `access_tokens` column. The frontend saves the JSON in localStorage and checks if the app's access token is present or not. (Note that only strings can be saved in localStorage. Hence the JSON is stringified using `JSON.stringfy` before saving in localStorage. And while accessing the tokens, it is parsed using `JSON.parse`)
 - If the access token is access token is still not found, it means the user has not yet completed OAuth with the app.
 - The following are the steps for the user to complete OAuth. Note the process can differ based on the application. But the steps on the user's side will almost always remain same
     1. User clicks on the button `Sign In with the APP_NAME`.
-    2. On clicking the button, the page redirects to the app's page. The user is asked to give access to Neera's integration.
+    2. On clicking the button, the page redirects to the app's page. The user is asked to give access to Felvin's integration.
     3. Once the user gives access, the page is redirected to the Redirect URI, registered in the app's settings and in the code.
     4. As per standard OAuth, the Redirect URI contains a `code` in query parameters.
     5. The callback component(the component at Redirect URI) in the frontend sends the `code` to the plugin service.
     6. The plugin service sends the `code` to the app's relevant OAuth API and receives the `access token`. This `access token` is used to access the user's documents in the app.
     7. The plugin service sends `access token` to the Frontend.
-    8. Frontend saves the `access token` in its localStorage and sends it Neera Backend to update the `access token` in the Neera DB.
+    8. Frontend saves the `access token` in its localStorage and sends it Felvin Backend to update the `access token` in the Felvin DB.
 
     # 2. Searching the documents
 
@@ -79,8 +79,8 @@ Here is the flow of a third party app's service
 
         To setup a cronjob:
 
-        - Write an endpoint on the plugin service, which when hit, updates documents of all the users in Meili Search DB. (Ex: `/cronjob` endpoint in [this](https://github.com/Neera-AI/pocket-search-api/blob/master/server/server.js) file)
-        - Make a request to the endpoint periodically via Github Actions. ([Example](https://github.com/Neera-AI/pocket-search-api/blob/master/.github/workflows/cronjob.yml))
+        - Write an endpoint on the plugin service, which when hit, updates documents of all the users in Meili Search DB. (Ex: `/cronjob` endpoint in [this](https://github.com/felvin-search/pocket-search-api/blob/master/server/server.js) file)
+        - Make a request to the endpoint periodically via Github Actions. ([Example](https://github.com/felvin-search/pocket-search-api/blob/master/.github/workflows/cronjob.yml))
 
         Through this, cronjob can be monitored via the web, instead of having to check the server. Also make sure that you don't expose the DB. The DB must be accessed only by the plugin service.
 
