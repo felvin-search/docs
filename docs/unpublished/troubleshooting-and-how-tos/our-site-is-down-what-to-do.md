@@ -3,16 +3,16 @@
 ## Checklist
 
 * [ ] **Check: The backend and frontend processes are running**
-  * Login to [app@neera.ai](mailto:app@neera.ai)
+  * Login to app@felvin.com
 
 ```text
-ssh app@neera.ai
+ssh app@felvin.com
 ```
 
 * Open the `tmux` session
 
 ```text
-tmux a -t neera
+tmux a -t felvin
 ```
 
 * To check the frontend process, see `serve -s build -p 3000 -n` is up and running
@@ -27,7 +27,7 @@ pm2 logs
 * Login to server with
 
 ```text
-ssh root@neera.ai
+ssh root@felvin.com
 ```
 
 * Check status with
