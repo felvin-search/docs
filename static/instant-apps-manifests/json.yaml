@@ -1,0 +1,6 @@
+name: JSON Formatter
+description: Format JSON strings into prettier format
+screenshotUrl: https://raw.githubusercontent.com/felvin-search/docs/master/static/img/instant-apps/json-example.png
+exampleQueries:
+  - format json
+  - json format

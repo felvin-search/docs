@@ -15,6 +15,7 @@ module.exports = {
       items: [
         "features/instant-apps/getting-started",
         "features/instant-apps/architecture",
+        "features/instant-apps/marketplace",
       ],
     },
     {
