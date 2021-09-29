@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "marketplace": "node ./scripts/create-apps-json.js",
+    "start": "yarn marketplace && yarn docusaurus start",
+    "build": "yarn marketplace && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -20,9 +21,14 @@
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
+    "fs-extra": "^10.0.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "styled-components": "^5.3.1",
+    "tiny-glob": "^0.2.9",
     "url-loader": "^4.1.1"
   },
   "browserslist": {
