@@ -1,0 +1,6 @@
+name: Currency Convertor
+description: Convert currencies
+screenshotUrl: https://raw.githubusercontent.com/felvin-search/docs/master/static/img/instant-apps/currency-example.png
+exampleQueries:
+  - "500 usd to inr"
+  - "100 eur to usd"
