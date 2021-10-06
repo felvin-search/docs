@@ -31,6 +31,12 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Events",
+      collapsed: false,
+      items: ["events/hackathon"],
+    },
+    {
+      type: "category",
       label: "Team Docs",
       items: [
         "team-documentation",
