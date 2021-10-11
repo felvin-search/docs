@@ -104,5 +104,9 @@ module.exports = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+			gtag: {
+				trackingID: "G-HHC5D43J97",
+				anonymizeIP: true
+			}
     }),
 };
