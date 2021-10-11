@@ -6,14 +6,20 @@ image: img/events/hackathon-oct-2021-poster.png
 ---
 
 import HackathonOct2021Poster from "@site/static/img/events/hackathon-oct-2021-poster.png";
+import Button from "../../src/components/Button";
 
-<img
-  alt="Hackathon Poster"
-  src={HackathonOct2021Poster}
-  width="500"
-/>
+<div style={{position: "relative"}}>
+  <Button href="#registration" style={{position: "absolute", right: "0", top: "-4.5rem"}}> Register </Button>
+  <img
+    alt="Hackathon Poster"
+    src={HackathonOct2021Poster}
+    width="500"
+  />
+</div>
+
 
 ## Problem Statement
+
 
 **Create awesome Open Source Instant Apps at [github.com/felvin-search/instant-apps](https://github.com/felvin-search/instant-apps).**
 
@@ -22,6 +28,7 @@ Instant apps are the small preview cards which can answer some special search qu
 Search queries like "define farrago", "time in germany", "video to gif" can and should be "answered" instantly. You should not have to click on a website and navigate it around while closing a series of popups or looking at "your phone has virus" ads.
 
 ## Registration
+
 
 Use this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfVdEqYcKpXn5oA_7Xk8okBAYGWGogQi1_Dt7w6-ok30bat8A/viewform?usp=sf_link) to sign up for the hackathon and receive important announcements about the hackathon.
 
