@@ -1,6 +1,5 @@
 import React from "react";
-// Update YAML files inside static/instant-apps-manifest and run `yarn marketplace` to update the JSON
-import apps from "./generated-manifest.json";
+import apps from "@felvin-search/apps";
 import styled from "styled-components";
 
 const CardsContainer = styled.div`
@@ -44,8 +43,8 @@ const Screenshot = styled.img`
 function Card({ app }) {
   const handleOnClick = () => {
     // get a url of felvin.com from example queries
-    if (app.exampleQueries.length > 0) {
-      const query = app.exampleQueries[0];
+    if (app?.exampleSearchQueries.length > 0) {
+      const query = app.exampleSearchQueries[0];
       const appUrl = `https://felvin.com/search?q=${query}`;
       window.location = appUrl;
     } else {
@@ -59,17 +58,18 @@ function Card({ app }) {
       <p>
         <strong>{app.description}</strong>
       </p>
-      <p>
+      <div>
         Example Queries
         <QueriesList>
-          {app.exampleQueries.map((query) => (
+          {app.exampleSearchQueries && app.exampleSearchQueries.map((query) => (
             <li key={query}>{query}</li>
           ))}
         </QueriesList>
-      </p>
+      </div>
+      {/* TODO: screenshot not included in app dist folder */}
       <Screenshot
         alt={`Screenshot of the instant app ${app.name}`}
-        src={app.screenshotUrl}
+        src={app.screenshotPath}
       />
     </CardStyled>
   );
