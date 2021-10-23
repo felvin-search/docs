@@ -18,8 +18,7 @@ const CardStyled = styled.div`
   display: flex;
   flex-direction: column;
   min-width: 100%;
-  padding-top: 1rem;
-  padding-left: 2rem;
+  padding: 1rem;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -36,8 +35,8 @@ const QueriesList = styled.ul`
 `;
 
 const Screenshot = styled.img`
-  max-width: 100%;
-  height: auto;
+  object-fit: contain;
+  margin: auto 0;
 `;
 
 function Card({ app }) {
@@ -67,10 +66,11 @@ function Card({ app }) {
         </QueriesList>
       </div>
       {/* TODO: screenshot not included in app dist folder */}
+      {app.screenshotPath && 
       <Screenshot
         alt={`Screenshot of the instant app ${app.name}`}
-        src={app.screenshotPath}
-      />
+        src={`../../node_modules/${app.id}/src/files/screenshot.png`}
+      />}
     </CardStyled>
   );
 }
