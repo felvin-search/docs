@@ -1,6 +1,5 @@
 import React from "react";
-// Update YAML files inside static/instant-apps-manifest and run `yarn marketplace` to update the JSON
-import apps from "./generated-manifest.json";
+import apps from "@felvin-search/apps";
 import styled from "styled-components";
 
 const CardsContainer = styled.div`
@@ -19,8 +18,7 @@ const CardStyled = styled.div`
   display: flex;
   flex-direction: column;
   min-width: 100%;
-  padding-top: 1rem;
-  padding-left: 2rem;
+  padding: 1rem;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -37,15 +35,15 @@ const QueriesList = styled.ul`
 `;
 
 const Screenshot = styled.img`
-  max-width: 100%;
-  height: auto;
+  object-fit: contain;
+  margin: auto 0;
 `;
 
 function Card({ app }) {
   const handleOnClick = () => {
     // get a url of felvin.com from example queries
-    if (app.exampleQueries.length > 0) {
-      const query = app.exampleQueries[0];
+    if (app?.exampleSearchQueries.length > 0) {
+      const query = app.exampleSearchQueries[0];
       const appUrl = `https://felvin.com/search?q=${query}`;
       window.location = appUrl;
     } else {
@@ -59,18 +57,20 @@ function Card({ app }) {
       <p>
         <strong>{app.description}</strong>
       </p>
-      <p>
+      <div>
         Example Queries
         <QueriesList>
-          {app.exampleQueries.map((query) => (
+          {app.exampleSearchQueries && app.exampleSearchQueries.map((query) => (
             <li key={query}>{query}</li>
           ))}
         </QueriesList>
-      </p>
+      </div>
+      {/* TODO: screenshot not included in app dist folder */}
+      {app.screenshotPath && 
       <Screenshot
         alt={`Screenshot of the instant app ${app.name}`}
-        src={app.screenshotUrl}
-      />
+        src={`../../node_modules/${app.id}/src/files/screenshot.png`}
+      />}
     </CardStyled>
   );
 }
