@@ -1,5 +1,5 @@
 import React from "react";
-import apps from "@felvin-search/apps";
+import apps from "./appDetails.json";
 import styled from "styled-components";
 
 const CardsContainer = styled.div`
@@ -69,7 +69,7 @@ function Card({ app }) {
       {app.screenshotPath && 
       <Screenshot
         alt={`Screenshot of the instant app ${app.name}`}
-        src={`../../node_modules/${app.id}/src/files/screenshot.png`}
+        src={app.screenshotPath}
       />}
     </CardStyled>
   );
