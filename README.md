@@ -13,15 +13,16 @@ yarn start
 
 ## How to update Instant Apps marketplace?
 
-Add a new YAML or update YAML files inside `static/instant-apps-manifests`.
+Update `appDetails.json` inside `src/components`, by adding a JSON object (example below), copying data from that app's `index.js`.
 
-```yaml
-# Instant App manifest
-name: App Name
-description: App Description
-screenshotUrl: A URL to a screenshot or gif of the app working (Ideally 200x200 or 400x400)
-# At least one example query which would show the app on felvin.com
-exampleQueries:
-  - search query a
-  - search query b
+```json
+{
+    "id": "@felvin-search-apps/instant-app-details",
+    "name": "Instant App Details",
+    "description": "a meta instant app that shows details of all the felvin instant apps",
+    "exampleSearchQueries": [
+        "list all felvin instant app details"
+    ],
+    "screenshotPath": "https://raw.githubusercontent.com/felvin-search/instant-apps/master/apps/instant-app-details/src/files/screenshot.png"
+},
 ```
