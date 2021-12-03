@@ -8,8 +8,6 @@ const CardsContainer = styled.div`
   @media (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  grid-auto-rows: 1fr;
-
   grid-column-gap: 4rem;
   grid-row-gap: 1rem;
 `;
@@ -19,24 +17,18 @@ const CardStyled = styled.div`
   flex-direction: column;
   min-width: 100%;
   padding: 1rem;
-
+  cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-
+  justify-content: space-around;
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
   }
-`;
-
-const QueriesList = styled.ul`
-  list-style-type: none;
-  padding: 0;
 `;
 
 const Screenshot = styled.img`
   object-fit: contain;
-  margin: auto 0;
+  margin: 1rem;
 `;
 
 function Card({ app }) {
@@ -59,13 +51,12 @@ function Card({ app }) {
       </p>
       <div>
         Example Queries
-        <QueriesList>
+        <ul>
           {app.exampleSearchQueries && app.exampleSearchQueries.map((query) => (
             <li key={query}>{query}</li>
           ))}
-        </QueriesList>
+        </ul>
       </div>
-      {/* TODO: screenshot not included in app dist folder */}
       {app.screenshotPath && 
       <Screenshot
         alt={`Screenshot of the instant app ${app.name}`}
