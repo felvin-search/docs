@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "marketplace": "node ./scripts/create-apps-json.js",
-    "start": "yarn marketplace && yarn docusaurus start",
-    "build": "yarn marketplace && docusaurus build",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
