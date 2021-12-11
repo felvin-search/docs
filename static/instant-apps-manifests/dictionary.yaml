@@ -1,6 +1,0 @@
-name: Dictionary
-description: Define words and find meanings
-screenshotUrl: https://raw.githubusercontent.com/felvin-search/docs/master/static/img/instant-apps/dictionary-example.png
-exampleQueries:
-  - define gonzo
-  - farrago meaning
