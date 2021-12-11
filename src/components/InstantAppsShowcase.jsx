@@ -68,7 +68,7 @@ function Card({ app }) {
 
 export default function () {
   return (
-    <BrowserOnly>
+    <BrowserOnly fallback={<div>Loading...</div>}>
       {() => {
         const appDetails = require("@felvin-search/apps").appDetails;
         return (
