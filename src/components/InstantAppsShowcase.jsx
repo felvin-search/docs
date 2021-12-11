@@ -1,5 +1,5 @@
 import React from "react";
-import apps from "./appDetails.json";
+import BrowserOnly from "@docusaurus/BrowserOnly";
 import styled from "styled-components";
 
 const CardsContainer = styled.div`
@@ -68,10 +68,17 @@ function Card({ app }) {
 
 export default function () {
   return (
-    <CardsContainer>
-      {apps.map((app) => {
-        return <Card key={app.id} app={app} />;
-      })}
-    </CardsContainer>
+    <BrowserOnly>
+      {() => {
+        const appDetails = require("@felvin-search/apps").appDetails;
+        return (
+        <CardsContainer>
+          {appDetails.map((app) => {
+            return <Card key={app.id} app={app} />;
+          })}
+        </CardsContainer>
+        )
+      }}
+    </BrowserOnly>
   );
 }
