@@ -1,6 +1,0 @@
-name: Timer
-description: Set an instant countdown timer
-screenshotUrl: https://raw.githubusercontent.com/felvin-search/docs/master/static/img/instant-apps/timer-example.png
-exampleQueries:
-  - 10 minutes timer
-  - 60 seconds timer
