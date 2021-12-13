@@ -1,0 +1,23 @@
+name: Instant apps marketplace update
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upgrade package, commit and push
+        uses: actions/checkout@v2
+        with:
+          token: ${{secrets.PAT}}
+          fetch-depth: 0
+      - run: |
+          git config user.name sahil-shubham
+          git config user.email sahil.shubham2000@gmail.com
+          yarn upgrade @felvin-search/apps@latest
+          git add .
+          git commit -m "@felvin-search/apps version updated"
+          git push
