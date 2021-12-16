@@ -43,7 +43,7 @@ Search queries like "define farrago", "time in germany", "video to gif" can and 
   </tr>
 </table>
 
-Check out [available instant apps](https://github.com/felvin-search/instant-apps/tree/master/src/apps).
+Check out [available instant apps](https://docs.felvin.com/instant-apps/marketplace).
 
 ## Key features
 
