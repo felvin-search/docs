@@ -80,7 +80,7 @@ Now let’s create a kubernetes deployment using the docker image we pushed.
 
 > Note: This is the first time we are interacting with the cluster manually. The two main ways of doing anything are `kubectl <command chain>` and `kubectl apply -f <a yaml file>`. Using a YAML file is good for creating things declaratively, so that they can be shared later.
 
-Update the image url in the [`deploy/deployment-production.yaml`](​​https://github.com/felvin-search/felvin.com/blob/80d9fc4252199c5b1d7e79e7dfece82f42a433a4/deploy/deployment-production.yaml#L19) file with `<account-id>.dkr.ecr.ap-south-1.amazonaws.com/<repository_name>:latest`.
+Update the image url in the `deploy/deployment-production.yaml`: ​​https://github.com/felvin-search/felvin.com/blob/master/deploy/deployment-production.yaml#L19 file with `<account-id>.dkr.ecr.ap-south-1.amazonaws.com/<repository_name>:latest`.
 
 Now run
 
@@ -111,7 +111,7 @@ metadata.namespace can also be provided but it’s `default` by default.
 
 If you see the new pods for the deployment and their status as “Running” in the k9s window, let’s see if the pods are really ready!
 
-On k9s, use `shift+f` to port forward to one of the two pods we created. The container port is `80` and you should use `3000` on your localhost (to escape [CORS errors](https://github.com/felvin-search/felvin.com/blob/80d9fc4252199c5b1d7e79e7dfece82f42a433a4/packages/backend/index.ts#L18)).
+On k9s, use `shift+f` to port forward to one of the two pods we created. The container port is `80` and you should use `3000` on your localhost (to escape CORS errors: https://github.com/felvin-search/felvin.com/blob/master/packages/backend/index.ts#L18).
 
 Now if you open http://localhost:3000 you should be able to see the site up and running!
 
