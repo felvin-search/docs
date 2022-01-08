@@ -1,4 +1,6 @@
-# Tutorial
+---
+title: Tutorial
+---
 
 > NOTE: If you are fairly new to Kubernetes, it should take at least 1-2 days of learning the new concepts as well as playing/experimenting with a cluster and gaining confidence.
 
@@ -163,19 +165,19 @@ Update the names and/or roles in https://github.com/felvin-search/felvin.com/blo
 
 Full https://kubernetes.io/docs/reference/kubectl/cheatsheet 
 
-* kubectl get svc
+* `kubectl get svc`
   * Get all services
-* kubectl get all --all-namespaces
+* `kubectl get all --all-namespaces`
   * Get everything in all namespaces (pods, services, deployment, replicasets, etc.)
-* kubectl get all 
+* `kubectl get all`
   * Get everything in default namespace
-* kubectl logs -f deployment/felvin-search-prod
+* `kubectl logs -f deployment/felvin-search-prod`
   * Follow logs of a deployment
-* kubectl apply -f deployment-production.yaml
-* kubectl delete -f deployment-production.yaml
-* kubectl get events --sort-by='.lastTimestamp' -A
-* kubectl get events --sort-by='.metadata.creationTimestamp' -A
+* `kubectl apply -f deployment-production.yaml`
+* `kubectl delete -f deployment-production.yaml`
+* `kubectl get events --sort-by='.lastTimestamp' -A`
+* `kubectl get events --sort-by='.metadata.creationTimestamp' -A`
   * Contains important logs outside of pods, useful for debugging deployments
-* kubectl get <service felvin-search> -o yaml
+* `kubectl get <service felvin-search> -o yaml`
   * Export ANY existing k8s object as yaml, for declarative infra
-* eksctl get cluster
+* `eksctl get cluster`

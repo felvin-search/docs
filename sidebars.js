@@ -40,6 +40,7 @@ module.exports = {
       label: "Team Docs",
       items: [
         "team-documentation",
+        "team-docs/tutorials",
         {
           type: "category",
           label: "Decisions",
