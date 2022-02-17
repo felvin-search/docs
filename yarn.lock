@@ -1577,17 +1577,17 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@felvin-community/address-pincodes@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/address-pincodes/-/address-pincodes-1.15.0.tgz#95dc1f516cb4692569fe250c799d98fa1f5422e3"
-  integrity sha512-VkJAcxKqDdVNLdC64cN7i1aBRZZ4Jw+HWBD2ki779KUswSuzEQCNTglzHAgWL9spUkWz5Du+Npi45g7jdhiyVg==
+"@felvin-community/address-pincodes@^1.20.0":
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/address-pincodes/-/address-pincodes-1.20.0.tgz#f1041fe6bc95aa577ce0b63031d83903f20804a3"
+  integrity sha512-Hj1//ui7XhQU/eY0vLgp8+z6b7A8ubbK+zy2JSct1lmnP5Op6JebKSWQiP72Gu4XpoFEpcApdU9kjcdOfWEPjw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/async-api-validator@^1.54.0":
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/async-api-validator/-/async-api-validator-1.54.0.tgz#b4d73c8237c8f2474a88e4b931f608ef591b0171"
-  integrity sha512-utAc8JBh+p2VjC5US3jad/+NDiAzAOWUkwIpgG8KHHqHCx4j6mSuSz1QjHlkwfrXpF688ZHua3VU6g8LYA7diw==
+"@felvin-community/async-api-validator@^1.59.0":
+  version "1.59.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/async-api-validator/-/async-api-validator-1.59.0.tgz#73a1b3dcf39edd4b14e7f4ae1989598ae3291134"
+  integrity sha512-QX1MbK5RrtWQhU+abJImysDgeHZ46zv0u+5z/Rhx5J5Yf9FmpOlY5LXrj2YZUAgAc9Brn3mn+6h+/YmGMJsU7g==
   dependencies:
     "@asyncapi/parser" "^1.10.0"
     "@felvin-search/core" "^1.56.0"
@@ -1596,520 +1596,531 @@
     path-browserify "^1.0.1"
     util "^0.12.4"
 
-"@felvin-community/bouncy-ball@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/bouncy-ball/-/bouncy-ball-1.56.0.tgz#c4a229d8945c9c719c1074957f80805d40b04e37"
-  integrity sha512-UdjXwqcDTqSAoc1Uz/paloOYuiu2sAPiNR1JkzoALzg5QJFgPqG15Kf7BsnOeLbxi7Zs1A0F3cOb7FANR/Gvkg==
+"@felvin-community/bouncy-ball@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/bouncy-ball/-/bouncy-ball-1.61.0.tgz#14b4ce3bd820b221693d8dc5644a4252c511328f"
+  integrity sha512-RxMo3nUPj6h9qRKTvD/OdqHWsecO01KPvtxTeh/Uwz/qAouxlFTYdvOAqk2EoOD7iy0n+sv6k2RGZRzY0ou5mQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/capitals@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/capitals/-/capitals-1.56.0.tgz#0d0b0b4971905c07340bb13376de6a11a88936a5"
-  integrity sha512-e/H9im6ZPnwXLukgeZk+bs4ouAgaMY4pXfwrnqo5tF5c/oWaFJyuUAwWyzk6UFVtvL0WS3+uUMgKu6itSNwuTg==
+"@felvin-community/capitals@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/capitals/-/capitals-1.61.0.tgz#8610d37bcf2ba885df926150498fff9e5c3d2f81"
+  integrity sha512-QGyj7fVToT6dY1TKSPjbsGKxceHK8+x6v9XCu1jMrM1ARMwCc1XQ1725P2ccIcgAo4qfOyejWzHOOXTfuBahHA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/code-reference@^1.25.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/code-reference/-/code-reference-1.25.0.tgz#6922ef486c2899e7d3f1357bb4c18732b5b85c6d"
-  integrity sha512-VcQvnebv2vEf4cdKqt8nwN/v9ggJvdCpWf/dK3Mnzkagc+vI6fZ7pobQsNZJTwNZ4oz9FRGVCj00nhICvATqvw==
+"@felvin-community/code-reference@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/code-reference/-/code-reference-1.30.0.tgz#3e6170859175b3078a9ba81858f5896fe092c55b"
+  integrity sha512-hGaNSeQZINysz9240pXIgO3JkLHk8zKFgKfao0sdJyV0k2gvGypYfhpZajJuxHBdQzBcr/wQX0f42/zbYHyd7A==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     axios "^0.24.0"
     lodash "^4.17.21"
     react-syntax-highlighter "^15.4.5"
 
-"@felvin-community/color-picker@^1.49.0":
-  version "1.49.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/color-picker/-/color-picker-1.49.0.tgz#16a27314ad96c364e2cf20204d685a5de66e8663"
-  integrity sha512-JEEUj8Y3rIAey7Q8rls0lnoDuQYi7/cAD6zYstf3VJIpthHeA7saGwUjDlofp8PNkLSuHRWEbSfbiNmDdp/yBw==
+"@felvin-community/color-picker@^1.54.0":
+  version "1.54.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/color-picker/-/color-picker-1.54.0.tgz#1ed058d5fd5c90d23148ecfd697658af618be976"
+  integrity sha512-jVeDOUSNJ9LNlsqgG454vC+qhHMfL6H6jRlNVF5wf2da9Io8PDPOg3y3PAXfIR2j3pAaNbepRKgJy3YvJUBJkQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-color "^2.19.3"
 
-"@felvin-community/compressify@^1.47.0":
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/compressify/-/compressify-1.47.0.tgz#b4445c9d8c111864b34abb192af233dfc801cdf0"
-  integrity sha512-v9FYJhSdyAmJLBaxDmy0kPRPbt8YP9Cus2rYX24yYXKIRHe2kdgxg7+qlTg1439+rzEyOECN0xxciWyPH5s/Ug==
+"@felvin-community/compressify@^1.52.0":
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/compressify/-/compressify-1.52.0.tgz#fed7b6f2f29aaaad62cd96407f440939be08e677"
+  integrity sha512-V+yhDzrLI2YUKN3RrMgESIoeaiSYnKOJWCJpXA16TEeSb4Vsg7CQFmEjoLWygaIpQxsWh+jj0XSqTtb+kUGurw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     compressorjs "^1.1.1"
 
-"@felvin-community/convert-to-roman@^1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/convert-to-roman/-/convert-to-roman-1.10.0.tgz#8c2aa3af80160285a09deeb917ae971dbdecc778"
-  integrity sha512-nLtBnrPdsrfRV4GrsHPyGx7p54JO+fW1VtWDeJma2GJ/kN/q8RduSandKPmEPywjvmdMuO9epwL36iCqjI95rQ==
+"@felvin-community/convert-to-roman@^1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/convert-to-roman/-/convert-to-roman-1.15.0.tgz#0c3ec2b51ea4ff4f52302e60f8875f5a649c9a8b"
+  integrity sha512-uLv79UNaohKiUZsFt0y1EHnBs8K3yPABDuCGfUYxfrg9BLQoVmJTkp8odCw8RB/lHqXTVS9x3d5IEDVPk64TlQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/courier-tracker@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/courier-tracker/-/courier-tracker-1.56.0.tgz#4cdfbb1da205c3e52e2fe75ac0871cf673a9c0e4"
-  integrity sha512-9pmKk3mpHZ/cl0vUeVbqqJyycGNs0zgOhPytGKuwLhlLOAFQwB0sy1krf730V1mcqBcFmnKoGPaZV9KCkPhgZQ==
+"@felvin-community/courier-tracker@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/courier-tracker/-/courier-tracker-1.61.0.tgz#1dacd411d95f1a231dd533ac536478cc7bbeabc6"
+  integrity sha512-8vb1kkUTHxULj1gCcxArmsWnvqZIrdEUTsYzK749sYejmXTW5WKMcLZ1ZJ8Izj9Jux6TqDEltKZwNuKV726tKA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     lodash "^4.17.21"
     react "^17.0.2"
     react-dom "^17.0.2"
 
-"@felvin-community/cron-parser@^1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/cron-parser/-/cron-parser-1.19.0.tgz#7b0a851c3d34f471715fdd72ae4a60a0e469eec4"
-  integrity sha512-mAD/q80qiQ52cZm1i70Kg3Ozdcs61HLes5b+9S/fwWlaNcLd5T13GIiPv43gJcV0Y1cZI0zhNV9W8Kw0NmY6+g==
+"@felvin-community/cron-parser@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/cron-parser/-/cron-parser-1.24.0.tgz#5d23d329117ef3b3fc3a51cb80a2861a69488794"
+  integrity sha512-1GrcvIUgOz5dvFOGCmSXaOgt0r5Dp4DKflEcpn/EBHe4ltO+Tf1ACuTsCayk5DhK/g7uklnfARJVbtIV8bZa4g==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     cronstrue "^1.122.0"
 
-"@felvin-community/crop-image@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/crop-image/-/crop-image-1.38.0.tgz#6270989cb6ebb0d00621b54db685e95348f5914f"
-  integrity sha512-sxSfUC2SEe9Ku+Fjm61R2DtBp+YvWQP13tEbvGXTFBGqY8njpZI+yyIMzLTwEMdyfO8+5EPqlM6iP5ja1E51Eg==
+"@felvin-community/crop-image@^1.43.0":
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/crop-image/-/crop-image-1.43.0.tgz#42da313d7a1098ce40695d774cd86bd355dcd93d"
+  integrity sha512-01kOCUsd+CJoEWpVBdZrUR4zgySqABxKdSrVJivOWN/7WGd5ZggtO2s4ecPrpZ7wlmx4KQk1tNoa6C92sEwpWg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-image-crop "^9.0.4"
 
-"@felvin-community/crypto@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/crypto/-/crypto-1.38.0.tgz#b1aacc6a4bcd529529453109b5d70d4fe7515d67"
-  integrity sha512-7x7x3CQarH6tSb9eiz271L5Vx6coHHC1YCDF81zcs0PArxpkh+YT3uX7wfidQaJ6U54ZNb2c5ZZlE5/C+jl5ew==
+"@felvin-community/crypto@^1.43.0":
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/crypto/-/crypto-1.43.0.tgz#634986508a1cdc571a3021b391f8d90f30aa7cac"
+  integrity sha512-S6tXehxp88BnLUMuLEk2M5tA4lm3G1cZcXf+2O7/0TMFCHA+ZlTK7Usr7zs7Dz66z7sTyiViEEwqmflKRyDuRA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/csv-to-json@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/csv-to-json/-/csv-to-json-1.56.0.tgz#df83aa2828c0b1b3560ebdfafe0271cd8a8969ad"
-  integrity sha512-4+SeFwgeBKYRarw3KdeZyCxDPI3nCkQXxUsamB2/djG8X/knZpWnvb/IPM+rccimw92/tyUR432GLiGcFqMS3g==
+"@felvin-community/csv-to-json@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/csv-to-json/-/csv-to-json-1.61.0.tgz#03d566b6946408ca186c7ac82fed31bbb75d005f"
+  integrity sha512-h+7QXmXMcO555AJVD8eFtVGuFJjybLeIES2w0XUv/n9rKSQg4h1r6yjlK25lvDRewMZ21HTfYf3KsvjNxLXTmw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     papaparse "^5.3.1"
     react-feather "^2.0.9"
     react-json-pretty "^2.2.0"
 
-"@felvin-community/currency-convertor@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/currency-convertor/-/currency-convertor-1.56.0.tgz#6bce05b826e0c7a8f68ed09b5937ceb605f06b6b"
-  integrity sha512-HB8V5dJPP6ocdLEFVnBhmnC3w/L/OId5hBhN9aqzn0o6Vyd5/KOd29xIkBLS7ff+h9kZXe6RcUjJBNokAMuHTQ==
+"@felvin-community/currency-convertor@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/currency-convertor/-/currency-convertor-1.61.0.tgz#1efb5955277aecf790eb9fd06653ff18634cfb22"
+  integrity sha512-ZU9ZWCrVCmpvGDmzjSOMAomqWXfkosoi/r6/eZd+6+5zmRg94nYFMIjjMm46pupIM055FK8fsau5KIiVAmdnuA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     axios "^0.21.1"
     money "^0.2.0"
 
-"@felvin-community/dice-roller@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/dice-roller/-/dice-roller-1.56.0.tgz#d6bc0b7614c48a4a0135d967eecd2ed3698de0b1"
-  integrity sha512-CMbtVVrkowPcX17JGBeJm/cKqdKGA9rZ6QJwI0yf7J1YLbrFyx53zHYSQRUXDSTDfki9v6LjOw1uNRIdWEMPtw==
+"@felvin-community/dice-roller@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/dice-roller/-/dice-roller-1.61.0.tgz#2a5ff65231c19e44e1e173ea9a255a7f251fa997"
+  integrity sha512-LiCrKjn5+jJCjOykE3l1098DW1CF6HBtkQj4DILJ/z7ay4MTYg0mFdW0c1lWRj0hYZ5OJrEIDcNN6mxwOg2JvA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-dice-roll "^1.2.2"
 
-"@felvin-community/dictionary@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/dictionary/-/dictionary-1.56.0.tgz#8b30e001c627196eae4b91ecd332f4e29ec9aa74"
-  integrity sha512-n+VglamXOZ/ah9cOjLLMPqjzMIAiYcflaBvvFUwkm4REozEPESeUVp32Jd0Ay01C2YI4hOzT9u/CIuugQbIzJw==
+"@felvin-community/dictionary@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/dictionary/-/dictionary-1.61.0.tgz#2b2662399203140d64bfdb0275761b194779347b"
+  integrity sha512-QV0vYAZkXecdupwnDkNVTNm33qN7ZB0z4sO/NKxrFrj5iyGnhGgl41xEbzhjGViaEy+3TUFi5R56y5HvQ8TW3w==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/flappy-bird@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/flappy-bird/-/flappy-bird-1.56.0.tgz#cfd12b5ca3b028d99c1e8d668040f764bc3690c4"
-  integrity sha512-7Xx55IvwJEMT5XATD2jeCzyc6n7CG1fEbf1rcFDSKK+FV7X3Vrzp8UHIm8Y44TNVa6CpaMBpwJFbIIEd3vT3Ow==
+"@felvin-community/flappy-bird@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/flappy-bird/-/flappy-bird-1.61.0.tgz#258fc75d133baab7b16b0b4c87415eee190bfac7"
+  integrity sha512-sSdoecqvW4YQ4Ba50nNJ5x31a1r8/DherkjQ+yItOri/Pgcb80K/ZsKyx4KtvpHTAygchqif75z2v+konYVwoQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/flip-a-coin@^1.49.0":
-  version "1.49.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/flip-a-coin/-/flip-a-coin-1.49.0.tgz#dfaea3ae539a50838d5247318ab8a9b26ac6a423"
-  integrity sha512-uYnAW6zXUBUoYp8xDtARHqW+tNgZsCrdXj1jWlPN4OL03AuRDfzUvN/fxNeMILsVPwgsZmjbkrVxdO2OUrcBKg==
+"@felvin-community/flip-a-coin@^1.54.0":
+  version "1.54.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/flip-a-coin/-/flip-a-coin-1.54.0.tgz#410a73f7ec3b67b3567795767298793443566592"
+  integrity sha512-la6wOlB22Wk9aRBJQzl65hybHwmS5sGDrnAj7YA2lmOA8ihd+nR3eoAUOFgxyZM3k+SqvyTmE7RJAlcxMwOtKQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/graph-plotter@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/graph-plotter/-/graph-plotter-1.56.0.tgz#d114d60e7bf285e0f3616be3e45555eb3cb53d99"
-  integrity sha512-j5+i7UIbDpj9QDjo/FWZZFoC1rAPhjIGKRBK69rqOkijOe0mHMUAFpogWjtaOG31IXpddMLxXk3JmGCmXQXmQQ==
+"@felvin-community/graph-plotter@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/graph-plotter/-/graph-plotter-1.61.0.tgz#01d1ef483efdf593099ee9f2ab7c9b37e0679d1e"
+  integrity sha512-aHZN33i2T153O/PAFaLaRAspwSkZ6Jii0DA6Zy3IyMA16RgvnFn64AwzspH7VIEtv7Ex9k+gUEZN865dfW7d9Q==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     function-plot "^1.22.7"
 
-"@felvin-community/hello-world-in-different-languages@^1.47.0":
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/hello-world-in-different-languages/-/hello-world-in-different-languages-1.47.0.tgz#e5e51dbf883baf40fd0456aaff3dfe0c6e55d0a6"
-  integrity sha512-pPRSZQDzzcldBbJjjusl9qhb5FOtiOLl0p+6mlGPLRA9hU+YAdcVyhfEUKTiqBe1vK9SVscFhi9y6w1gKPRxeQ==
+"@felvin-community/hello-world-in-different-languages@^1.52.0":
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/hello-world-in-different-languages/-/hello-world-in-different-languages-1.52.0.tgz#ba376400dab7eb388aa46ab69d43e22bd0ae4bad"
+  integrity sha512-4GqpC/00vf+DTAdNZuvfAMbjAVH3h26WYJ4Xe1o9+C1dn0qZEBJag94qhi4+ApwGGgFCJ710E6xvimCImTndLA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/http-status-codes@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/http-status-codes/-/http-status-codes-1.12.0.tgz#c9f285b4af82e2f0ba581f37c8ee0996e8c2815a"
-  integrity sha512-LWKz/3/zJNhaF44FyYHIeoPvkd0scEdwWD7eN363mIfBkBe1IfdetN+eMuN8zaay4ENDh/iJM03sHRapoaBMkg==
+"@felvin-community/http-status-codes@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/http-status-codes/-/http-status-codes-1.17.0.tgz#47d5fabbdc7bfc511339e95047a9cae40e5f9268"
+  integrity sha512-aJc1W9savJQ00RPC/BpkHi2pj9pWLnj5nF5/LukIKSUMpEHmuLJ2s7sB3veHUigQsino3HDIOeNANYnvRB6rIw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/image-uploader@^1.37.0":
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/image-uploader/-/image-uploader-1.37.0.tgz#3ccb92687d967072bb6283689a13724809e82413"
-  integrity sha512-MWe57FRbbp/JSr854r0P89+yik1STDXgYvavavqwggwHbw7EGlFrEaJ5mh1LmMkpCtHZXVlPvs4/K990O+TYHw==
+"@felvin-community/image-uploader@^1.42.0":
+  version "1.42.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/image-uploader/-/image-uploader-1.42.0.tgz#eab64e8b6c74f7b5d2b0cac4a93b1625b9d818e9"
+  integrity sha512-mx6sMh3UjS7AeRKdxF2scksrt+Vwtbj5tLs3IXgebBVPeZVYX6k8BTXf9LgdLkbfvhusjwTkeu9kNDOVbNn2Zw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/instant-app-details@^1.31.0":
-  version "1.31.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/instant-app-details/-/instant-app-details-1.31.0.tgz#8873ebdf73d90efb5d67763ac911434f95f0bbc8"
-  integrity sha512-gHIpcF50d2SEvcVm0KSmkMebaAQVglItvSW7jJ65qBWKoF0GA+otSDZC090BAAzQ1XBUyVpROO7hmxZnlkou6Q==
+"@felvin-community/instant-app-details@^1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/instant-app-details/-/instant-app-details-1.36.0.tgz#8b46d43028d056fd872fe58ec568c14f17cebd78"
+  integrity sha512-qQbf1s23hoppr2+LKqzKKbAgtsf+4VQcasxz/rAg+ySNbfrmUx+CfIlyH+jGul+IH/qj10b9l3aghOqhzDaoPg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-responsive-carousel "^3.2.22"
 
-"@felvin-community/ip-address@^1.54.0":
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/ip-address/-/ip-address-1.54.0.tgz#2f86d2ca4a1201e56aa27fd8589194827fe36f67"
-  integrity sha512-+ywYM7/uUVLp473D6e2cl4f5+rr6KvRGDC6eWOFzAK1N3YWmE/BV4QjBqZZXURVorxm61FnK0gswDXvTb1ikcg==
+"@felvin-community/ip-address@^1.59.0":
+  version "1.59.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/ip-address/-/ip-address-1.59.0.tgz#1c433324ad291ceef7124f017db9590ea29b7b4c"
+  integrity sha512-6fpcLN37Hgviu9vw2h39g5SLclMRPmtCG1HHCRdU2+rsBRmwzKOQqDNNZxtZ0vXVUlMJV7Z1oyqffPSOa5gNeg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/is-prime@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/is-prime/-/is-prime-1.13.0.tgz#4795b68e13f3588655e3fe782e9d6480838bb5ef"
-  integrity sha512-C4CxK+GEs2N5fspaCwAaOghkVZcIEtwrCHa2nQDWnzfEHlJgLmzP3R4M30gz8T9MixxN4chuMEjP0s6nt8R+sQ==
+"@felvin-community/is-prime@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/is-prime/-/is-prime-1.18.0.tgz#4d5004c15f40f080b1fb34cb72e4cafb418620bc"
+  integrity sha512-ixOYlQ5mJqsLlYDEkZ1LphlafH2lm0J4JO+AqOQOUfm3nwG6g3ofQoqI1khLjnb9Pb3ND3+hD3fPRAnkWHJBkg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/joke-generator@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/joke-generator/-/joke-generator-1.56.0.tgz#e219be48cad97176612ad9ebe781b3fe3bc4bde4"
-  integrity sha512-286pQVbV4XNFUBY7q5p9VPQTDyouvPXLWx3vTc7nfaMo3Y56fXjduNWds8v8O2DI3ZaNM1k578i9/xRBCZC/gQ==
+"@felvin-community/joke-generator@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/joke-generator/-/joke-generator-1.61.0.tgz#2291e4231089bcd30710aa27ae6c91e88805af72"
+  integrity sha512-6YoYRpAYyAmvXeC12ZvvqXtEmJzC6tSJHFcutkYY9wESLoIrSGBbk/m/zTHhp6yPrGCVMA3fd6YrXH712PgCBQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/json-formatter@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/json-formatter/-/json-formatter-1.56.0.tgz#6abbbaedc95e88a72aad44b6272b495853ea0a60"
-  integrity sha512-sA1xARYT6spkosLGMmIwkMSV4zDqRnbbB+E0TxaFLum6E2kFu60VPC6T94AuLqiTf8qPuAVLXcFtC0vU1qDHZg==
+"@felvin-community/json-formatter@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/json-formatter/-/json-formatter-1.61.0.tgz#db7f8759319e5a418d4a9f694c93429fb9f4d1dc"
+  integrity sha512-YT8mj+OjoSbvt7STPb+bUOgp5eEV392BEmXFy41ZDwePkaMc74ZcxYlw3RnPn2nbDYUk4lU/Zl9MDHWJcHC6eA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-feather "^2.0.9"
     react-json-pretty "^2.2.0"
 
-"@felvin-community/jwt-decoder@^1.51.0":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/jwt-decoder/-/jwt-decoder-1.51.0.tgz#327a3a27c2a71b9305c801877d9876988ce4ec7b"
-  integrity sha512-GsSNxvzhd8g9WMfGQEEdCjZDBiNuDuCTk8YejDM7qtHJTulJB6iaA6Xp+fskBBBmxCb/vNqzDyst17i8bT2ZJQ==
+"@felvin-community/json-to-csv@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/json-to-csv/-/json-to-csv-1.61.0.tgz#e3ef9a76360c3b4f682c4c4eb09c3a61d569e2b2"
+  integrity sha512-QkfGSEtXXkoL5/dMvrLWMfKDIktzuvQ6DgyMYxWBlQK2Nj7ijhRUBNqXaYPE+E+S3YRS1aG6INwT1OBGuJWyHQ==
+  dependencies:
+    "@felvin-search/core" "^1.56.0"
+    papaparse "^5.3.1"
+    react-feather "^2.0.9"
+    react-json-pretty "^2.2.0"
+
+"@felvin-community/jwt-decoder@^1.56.0":
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/jwt-decoder/-/jwt-decoder-1.56.0.tgz#732627d619ffc043d1131ba7467b44f1f48b7af7"
+  integrity sha512-qbhEBPmm0wH6EDfV4XHw3ibJOvd6aix7I5NdXUmm8i6ULWolot4RqSM8maLtRnF6iRg8p7vhGTWBLyCBoLLHjw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     jwt-decode "^3.1.2"
 
-"@felvin-community/latex-render@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/latex-render/-/latex-render-1.56.0.tgz#95e5208baa3737478b6b65b183df9a7f8c16d960"
-  integrity sha512-Xr/cp8Gy8awDJuo/2+4Zsv89+TDQcSksICBy9G7rfVccbWYq4XhE2brzy5GJzw3xDqKrO+iOA6wiBY1pPa/3Hw==
+"@felvin-community/latex-render@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/latex-render/-/latex-render-1.61.0.tgz#ab9d296554ac2a490668f469a594449d58f2c2de"
+  integrity sha512-5IGUxf4aqA2gr0v+2CDmFv2O3UseiKzxdbAuPrYs+4FQDFmBSP7Sc5PKRQg+ABzcC/9OcnziF3oFUEBYMzxIPw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     html-to-pdf-js "^0.9.3"
     katex "^0.13.18"
     react-katex "^2.0.2"
 
-"@felvin-community/live-markdown@^1.51.0":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/live-markdown/-/live-markdown-1.51.0.tgz#847e6c8a5f95d73a4e87509c210c955c88ce86ce"
-  integrity sha512-0Gc/6efLCl0YPfNkvp1qMz+im2qc/azAwHQ5UiY6JzAehOaTuo+ovEaVCONl7pwGCo50Q1fMAeP51+s/QRYsCw==
+"@felvin-community/live-markdown@^1.56.0":
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/live-markdown/-/live-markdown-1.56.0.tgz#2066b3a751da835b5dbbf5bfd6954609f35db67c"
+  integrity sha512-sp0k7FV+8crkdFP5R2hB4HzxQcOH++ATckH+WhNwSiwh+1KaukHZ8gM0epi+ikTRHasnzoiP/LZkSLZlrZAhzA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     "@uiw/react-markdown-preview" "^3.4.0"
 
-"@felvin-community/lorem-ipsum-generator@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/lorem-ipsum-generator/-/lorem-ipsum-generator-1.56.0.tgz#fab455cf3868681d89524ae817e85216d5aede54"
-  integrity sha512-bJFQZ51znvVGylRxtvmTjkX0x2LNja2y4uaC3kwrW7Gbiwr0ByhvCqsolUwrVskO282WWiQkusXGQGqBKVPVpw==
+"@felvin-community/lorem-ipsum-generator@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/lorem-ipsum-generator/-/lorem-ipsum-generator-1.61.0.tgz#99d7f34435ae397fd648ca6cc929cc562e54b60d"
+  integrity sha512-goaDqfeQFqcRmzgRz0+XmRS/Mrr+IjbkY10yDgQDyMJ5SwhJhRoD1/RXdePTfcCLhp+1DV2wgPOcOHy5GlsesA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     lorem-ipsum "^2.0.3"
     react-feather "^2.0.9"
 
-"@felvin-community/markdown-to-html@^1.51.0":
-  version "1.51.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/markdown-to-html/-/markdown-to-html-1.51.0.tgz#72851dd3ce346a3834e9ed5c3c2af97d14a041fe"
-  integrity sha512-Ou3ITFbf8zv2qgTXcpNo8AEbrJLA1Neb6xZ6As2zvG8jfWd3avElf7dqWMWCIruqWzaxhaowiyQgaor4+j5JlQ==
+"@felvin-community/markdown-to-html@^1.56.0":
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/markdown-to-html/-/markdown-to-html-1.56.0.tgz#5ae40a22aae13c8f34e69839b73cec721e3649d1"
+  integrity sha512-G3RHx26sb37+ySmbtU+GFSO19TPo4U2KKgzr2H9mQIDE3dgb3IKErJHHo1FfqVt9FNA+7Bu0EubkkupJbigahw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     marked "^3.0.7"
 
-"@felvin-community/math@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/math/-/math-1.56.0.tgz#425bf52c918afc218313ee285e615484ecbf8e77"
-  integrity sha512-JmN5h47/2pbVK3Q+lhLG39CjINyY03GKt5mkLXlWcwIfWPnHRJ/Y7egaQudkDVKx+V3ddTlNQQcdeBaM8bm4HQ==
+"@felvin-community/math@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/math/-/math-1.61.0.tgz#42585383616312c8654de786e27624031d998d8c"
+  integrity sha512-dlLeVLRw7Yy3rBUqB6/yUSFWOtNsXgMD2pc3EWov7bXAW7AzFl9sompDbIB4+cOQpJGOa4khOHQxNhJyDEg+LQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     mathjs "^9.4.4"
 
-"@felvin-community/merge-pdfs@^1.48.0":
-  version "1.48.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/merge-pdfs/-/merge-pdfs-1.48.0.tgz#d774481228475448e4f171abc76df0dfe8b4cb6b"
-  integrity sha512-dcJFU9y1ewYkNEgHVnBUhfOk7xs9ZAfv17EYL1tDvbr9W+KtfSYbBRJRvcDc17Vog8HIEArnrFVWOQ+7vMiBWg==
+"@felvin-community/merge-pdfs@^1.53.0":
+  version "1.53.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/merge-pdfs/-/merge-pdfs-1.53.0.tgz#bd8116df834fc44014ff9eaeffafd874fb19cda8"
+  integrity sha512-w/3UXkvKEyi6qNoBmGI43mvLXxNdz/XUvzEF1bRtX5D+mCQb8fKTD7dNy9NZzNVbM09WCmapmAOzRshnG/FH2w==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     pdf-lib "^1.17.0"
 
-"@felvin-community/metronome@^1.16.0":
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/metronome/-/metronome-1.16.0.tgz#25bea73ef1b363e931d334728f95407b6f3c4903"
-  integrity sha512-pfai/SO23KXxndljIo8exbSqY4MWNty9FUsYqMZEcohlQDut0J/ssmaB74HMrbs4CJaLx8TKPkgFkPqxM0UmSA==
+"@felvin-community/metronome@^1.21.0":
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/metronome/-/metronome-1.21.0.tgz#889d404926fcb875e5f567ba6f04adfd11ec6ec9"
+  integrity sha512-memTVa/yHNi9H+8Hb5pqUhkd/X85ThF79FUrl6NPm93fLjBRa0jycl9x1DB0brxw4TugTjpq/z19atQmQZgMrQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     "@kevinorriss/react-metronome" "^2.0.1"
 
-"@felvin-community/morse-code-generator@^1.54.0":
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/morse-code-generator/-/morse-code-generator-1.54.0.tgz#b9f0f014efd806eeb9d134e7b7a7a9bdc99d8776"
-  integrity sha512-Wip+m2jQYFzFtMA0cGDc5q++UplyxF4GOk/gw2VUDQpZoMUNGHtK20iulzHFBkhcYvQ1N9TOpzO8d7fylVbTUw==
+"@felvin-community/morse-code-generator@^1.59.0":
+  version "1.59.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/morse-code-generator/-/morse-code-generator-1.59.0.tgz#dbe88b488e533d0d50d33585722c2252833b5624"
+  integrity sha512-az62wAlpN7KE64/VVUAFbaqKs31avzZk4OWpEfOdH9Lkr2qREe4zRsEGkuBw2J5ySDG4tbc/qvf3QkZNtgKb3g==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/pokedex@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/pokedex/-/pokedex-1.44.0.tgz#243a9eb6160031d58f1ebaf44633307a36397659"
-  integrity sha512-F9HrEVCW0nB/SD6/WMWUkF/mwMy6LeR/fZDsYbXLssJ39XjPSkqmM8613tKRobnpCLmcnCHztm6SnFL3wn/ODQ==
+"@felvin-community/pokedex@^1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/pokedex/-/pokedex-1.49.0.tgz#c3c8ccd3b1f7fb1d69b9476f3e7792937bc66a6a"
+  integrity sha512-55oOl9ZOUQIu+5o9m657FlWPPMjj1cbYVSIuUi9ynaFwSKEkfsjsZr+In7wYoliB1l9wbWPL45zTpWEbj4hnGw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     axios "^0.21.1"
 
-"@felvin-community/qr-code-generator@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/qr-code-generator/-/qr-code-generator-1.44.0.tgz#ce3c04d7ef76117c447699949e83f5de5789d0c9"
-  integrity sha512-LAf47emHBTlvabPRV5ejaIoBX6S2BBJgJNeg+sKGZHuKNyPpruWU40ebGpUlD+/cpVRY5h/Kgt3COH9gVvX55w==
+"@felvin-community/qr-code-generator@^1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/qr-code-generator/-/qr-code-generator-1.49.0.tgz#6a8274dfc2ea4ac95e14bc854c27d21b37eaa691"
+  integrity sha512-FlIGWD44yELrT8my1WgSy2ZgGeEA8Hh1cx0MuR0zdGdpNwuN1DhOCn6aXdVBUx7OqknmeqxEik4lE+/WtUCesQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/random-string-generator@^1.37.0":
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/random-string-generator/-/random-string-generator-1.37.0.tgz#c6bfe0760546d232be6fd61a847d2de9dbf65c5c"
-  integrity sha512-1oH+t9BUHAsNHaSiT6CT00osRV4YSWkTkzL6DeJSRY/bF7BAlJp593GOGLF58fKOZzWncjAtFCcKbYKJApC3Gg==
+"@felvin-community/random-string-generator@^1.42.0":
+  version "1.42.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/random-string-generator/-/random-string-generator-1.42.0.tgz#19cbbc28dcdc443e9ff9a92d64b89b43c5a7bac6"
+  integrity sha512-6fFu/yTk7x6vE46w5Zo4vdA8ZvD+VNH/xKqjp2r77NaJaFUThFD1HqbXhKPPv0dplBPGKEb0Naez6ADbwT6byw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     randomstring "^1.2.1"
 
-"@felvin-community/regex@^1.54.0":
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/regex/-/regex-1.54.0.tgz#2c791e82b189290130d976e0018e0db2b7cc7a6b"
-  integrity sha512-ZlCVqOrE5mphhliVD8XZDGerK7zDL5i9HN/F3E2dq2ssFb75SDKkLfwvjxggmqT9T1e3D8AmBfwjv5CrPSHaYg==
+"@felvin-community/regex@^1.59.0":
+  version "1.59.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/regex/-/regex-1.59.0.tgz#848bd07babaee6101532b1e1b874df161fb887cb"
+  integrity sha512-gIf44PEw8Us97BjyufOqjTRBl904V9vCRyQnLzgt2cxVL1fVfAapaygAu9xRqOzBtxnhpov0j34doC0KWZV6qw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/screen-size@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/screen-size/-/screen-size-1.56.0.tgz#4360b0b1795a0bb67e582c89e25a75a3c6c19201"
-  integrity sha512-0DqMEGbmP5Pm1pnGJtRQGTRnPJ+QjqsJXxcxKQ3VpjR8371CHbS7M02NGHIDwnANJ/mP55aSfazQ1HizfbvfGg==
+"@felvin-community/screen-size@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/screen-size/-/screen-size-1.61.0.tgz#2d271d7584ccb11ae926dec858af73a1c8c928e0"
+  integrity sha512-3q27ZfErCRPaSBynOfp21prqwb/a3LIXO55Mge0mmseYo2+LkehtgY3uMQInRM3swinoJUm6jcfyyIjXrEVIYw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/snake-game@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/snake-game/-/snake-game-1.56.0.tgz#765df50694b8da6ac1aa0f67ef45474108cb42a4"
-  integrity sha512-wOnHyjbCJojEiNKEIEKoymXg798O3JUI38vMG8fREMZPsyMnNuM8HST/aG87/4gRicbq4NO+bOLDYKc9b3eYIA==
+"@felvin-community/snake-game@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/snake-game/-/snake-game-1.61.0.tgz#b463017729e351d40f5a8d27ea64c4c51b170d74"
+  integrity sha512-/0NVycbCYzm9NRbX03BsmamThd39NJ/F9a+OWLPoUHZFaEL5lxnityG0H8AJSTzsCXMZ43PG4790R9NV5k4fzA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     snake-game-react "^1.0.6"
 
-"@felvin-community/stopwatch@^1.26.0":
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/stopwatch/-/stopwatch-1.26.0.tgz#120a44ebb41f1af74ee1a9d37c320ee3ac8f1691"
-  integrity sha512-nsQrRaMOUOC57S2ke7Ko+cS5CSjJrznTBng0kfJUcJni4GLwiPTMHMYg+KHm6e/1w52VJHE9UPq/S1TrV7tFPQ==
+"@felvin-community/stopwatch@^1.31.0":
+  version "1.31.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/stopwatch/-/stopwatch-1.31.0.tgz#753cfe8010ab507d8ab9dad093489a333d1698f8"
+  integrity sha512-0u6PdI96VilUulwOj6TUrvRiXJ8DAMKW/86/aAbHSjH16Ol7IrtFOJxMGvEyXMocy48g7wDF7mGYCrZlS7TuHA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/sudoku@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/sudoku/-/sudoku-1.38.0.tgz#059ab8fb374b7df815f10b331e9ec2a029ce2c0a"
-  integrity sha512-iodlUe13X6YLQRbeShKg8sDJHxJAaesTcW2Ok7QQLo+6JA4d8tOAFUSxsx9wC502qMVLnp19a1zSizEtKLO2kA==
+"@felvin-community/sudoku@^1.43.0":
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/sudoku/-/sudoku-1.43.0.tgz#94bbe7d97b5633f341f225cdfb351a2903f09e48"
+  integrity sha512-r0PkZzpzwtEu02MQGMA5AePq0+A1edZ5dDQHLHkqMFYUAeBP/3dEjXz9WGdXbD79Eub9Tak2PQI9EYMbJnsBwQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     sudoku-gen "^1.0.0"
 
-"@felvin-community/tetris@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/tetris/-/tetris-1.56.0.tgz#8fd240217122a59c95a921b4f54170ae440f27c7"
-  integrity sha512-kXujqltEuw293zySlVB5IQJf4yYfa4yCuYo3jHUQmV4fCfD8uYd6bwXRr7MUAB1lb4V5RaTuxLBqeoWK7HxtUA==
+"@felvin-community/tetris@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/tetris/-/tetris-1.61.0.tgz#0382b9cd5b084bc93e4071eb46561e6f65d91c11"
+  integrity sha512-mEwBiia4AoJEX7VVg2YgO1ctoZahd+SsxCVgfPFvX5BRltIrVOBrMSLkLsVoHAZ300fIKdMLacZ3vXsOLuJXaQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     react-tetris "^0.1.2"
 
-"@felvin-community/tic-tac-toe@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/tic-tac-toe/-/tic-tac-toe-1.56.0.tgz#63c66a78c95b56902e9b02e6738257af4e739cbd"
-  integrity sha512-vMhUgYLpgOIWrggh38M08HIJIGfe8EDmDT3MPMzK6xHPSWdsszrtXYyizrBNEiF+bpJ45ARiEYwj/ROCyEd7rg==
+"@felvin-community/tic-tac-toe@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/tic-tac-toe/-/tic-tac-toe-1.61.0.tgz#2225bf9002b37315a5e01978a3485de05bb4f87a"
+  integrity sha512-va5HZkbxQqJehFeoC88TMQTf4aDienmuPuTEYvp1+D1DLCKFGDdQWUUcZcElmZQFhHypmgakUa+3fpAr9VooNA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/time-at-place@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/time-at-place/-/time-at-place-1.56.0.tgz#8f4256d4af63ec35dca1ec9433284db4ee7c8a6c"
-  integrity sha512-61ImCEf3XdmN9SFsS6kMmOBN00M+Z2LSSsLqgKAOuAgbpt0V5l1w++nEYThCy9xVLDKwnqsspPeA02qCag8lxQ==
+"@felvin-community/time-at-place@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/time-at-place/-/time-at-place-1.61.0.tgz#84147094fd02d38df6854d15ef61b87ebc15344d"
+  integrity sha512-g8Qrvc4DDEjvyb8eYazUvyzKMZQemAASJc1wZkifJk32H4a7xMAY4HKlNuIGa1mZppjtxhhGh0kJjlACNr5v3g==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     country-timezone "^1.0.8"
     dayjs "^1.10.7"
 
-"@felvin-community/timer@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/timer/-/timer-1.56.0.tgz#e016b905de64624cb909e64ff53aaef737e16982"
-  integrity sha512-Z1i5cZoKgmsYlg9Uwov3pOuk2Wy9m1Qm3Ab8yv8iTftmTjjlsWlv7ITOcSToAe0fKAqzA5aMN8E1ZJMMkJttww==
+"@felvin-community/timer@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/timer/-/timer-1.61.0.tgz#1da069ed4646e4a593853371a3bc2409b4c3aeba"
+  integrity sha512-aTDuncIehnHUZ7DV2sJ+tcSEUj5jaqNx9BR76pe3oXbsI7ONPtPLAI3duCzdFFtOB9G3jh6YV0gn9matmha4aA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/trending-on-github@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/trending-on-github/-/trending-on-github-1.44.0.tgz#123bd97f74061b5c18acf0234a3f720063ac01a6"
-  integrity sha512-nV90cwnEB7k4hC6rLzZkqBe8olqY1m15j26sFGwwe17sQLlkWMBzukQ9xWhsHmE6gNivOu/xHCf2vQbUSD3STw==
+"@felvin-community/trending-on-github@^1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/trending-on-github/-/trending-on-github-1.49.0.tgz#2fb67fa896b0d8ff37c826d360b900ae131a50a0"
+  integrity sha512-ibUVwq6xGsW6hc23bZXmx/6BSj/NpbZglTLqIE7pUe0P4d2XTTkocVquAks4CEo1i+ggIh+tUAhY+O905+PQBg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/tv-shows@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/tv-shows/-/tv-shows-1.44.0.tgz#7f953f9021257a41700195d98bea3e704a6bd60f"
-  integrity sha512-IZJ0GhgGUMk7F/bSQxIMGcejKZJJiR+SFSOdOKNkuxp8GMyRzJUsrGUNIQHlzGuq+Whdt4ydZ0t9Q51waSic7w==
+"@felvin-community/tv-shows@^1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/tv-shows/-/tv-shows-1.49.0.tgz#aad312c502a04d84bd80b4c878a4b724d7e7b080"
+  integrity sha512-3MQLpDliQhlGAKWKJOz8zc17Jgy9YGACJyJAOquzwa7MmeTS1LRgXEEWU2N47Ml32Bsn94kdOpu72AkFQehRwg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     axios "^0.21.1"
 
-"@felvin-community/unit-convertor@^1.30.0":
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/unit-convertor/-/unit-convertor-1.30.0.tgz#59c83bff0d4acf504d161304432ded4ea9a22efd"
-  integrity sha512-Za6AAN1hPoJU125vdNK71OD+u11MD6LaKqo17IdIIrJ8A7KSavwOVVzkAr19TW7sctmTTW4mXWjpWA3+1rqVyQ==
+"@felvin-community/unit-convertor@^1.35.0":
+  version "1.35.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/unit-convertor/-/unit-convertor-1.35.0.tgz#b383d78b7ea4b9f82abde346a5a30fc2ff441abe"
+  integrity sha512-g8nWUONXwOw6qVxVPA0vLUxU0NHdA7QyPe3dYEJGUNVG4SNmqhgV7OLKd1IeTWP2Pz+n75a7APa/8VQONRKboQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     "@material-ui/core" "^4.12.3"
     js-quantities "^1.7.6"
 
-"@felvin-community/unit-system@^1.25.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/unit-system/-/unit-system-1.25.0.tgz#381c626eb69d5c4afc0f2552dfea934f515de50a"
-  integrity sha512-3uf8chzYb7CMSDMTPea2u1Opzt56LIfsVwu8Ph5H4KPUIJbIsttVE0Qyc5yipA4/wgJieJL/ZIMsi3Zu9Lae6w==
+"@felvin-community/unit-system@^1.30.0":
+  version "1.30.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/unit-system/-/unit-system-1.30.0.tgz#f767af5ca70a28e8ef56ac168cb44ba695004891"
+  integrity sha512-RQ0Nc8J3+1tF7HIYXNRSgxuV6b/t9jz6MS0kUsysfECVL4k6T5vCJzNshplYaHTO/fhuBPhDEaeCHJzSY6KZRg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/unix-timestamp@^1.32.0":
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/unix-timestamp/-/unix-timestamp-1.32.0.tgz#3e94dd8acc06b70963f7aa6d356584bc876729e1"
-  integrity sha512-JNXBa/MNTDfopxpbvhswVsD8OKd2s5lDXiRz1zbeRXUFNu3pXqgx2xCHOgkhEzLgMj6EP0TC76lhY0R61xrSEw==
+"@felvin-community/unix-timestamp@^1.37.0":
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/unix-timestamp/-/unix-timestamp-1.37.0.tgz#2f6c9bacf26f3016aec3db93bf1a78742dd8e3eb"
+  integrity sha512-Gp/8h1d6u3Uecqb6fXbtvr0drh86JM/OJELdhdBKPiSvQTCUNU8tzC70vunFUM4T1EGy/SW16NN9+9d6psBY7A==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/url-encoder-decoder@^1.29.0":
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/url-encoder-decoder/-/url-encoder-decoder-1.29.0.tgz#3211c75b8c8de9aee39c3141559d2547be3083a1"
-  integrity sha512-UcnWE4jPo544dY+rd2gDbuyyhcIKXbbPXxsDlwe1HB7C5tlxEeSqWQyMAVB42B0Kj2a43/m6BjkC4M3WdCg+yA==
+"@felvin-community/url-encoder-decoder@^1.34.0":
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/url-encoder-decoder/-/url-encoder-decoder-1.34.0.tgz#bf19aad66d39fed3b7a276f8ae966cb1c98969aa"
+  integrity sha512-JeUzGsZBxJpTH6tZjsykoKkECiOsUSzBxZZM3TPDQA9SjKUtdldcQ56bPdVDQF+jIhHEWgMMzCbnWRljDkSHdg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/url-shortener@^1.44.0":
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/url-shortener/-/url-shortener-1.44.0.tgz#285fe314dfc06540c85446e7370f1d3b0694490e"
-  integrity sha512-GOWICkrcJmmhl638HR0I5czSlDUMux+q+isQuVwFpdgVxXy8H0tV4cNgu+I1M7/qUB3lBbh5Xlqgp9/iKTHCCA==
+"@felvin-community/url-shortener@^1.49.0":
+  version "1.49.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/url-shortener/-/url-shortener-1.49.0.tgz#b3f25dbafa3aa2d3b59635d4a9a118136ea04150"
+  integrity sha512-PEWtEwQZpRnTPceHynNyNkDjzJ7EXefOA0RGWlYgStVIf/+Pgfp7kx/rTRDfAZfU4JuTYtY6Vek+9T+V9fukBQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     axios "^0.21.1"
 
-"@felvin-community/uuid@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/uuid/-/uuid-1.56.0.tgz#66d327ef7fe815035e42647b89f92014efe31a8b"
-  integrity sha512-LWp8nH0vkkLsI3BZEbK4hfaJG9bvF9TrHBIKbY6pwKECIwJIAH6+RPXs+HJc/FbObrB6R9aRnKweg9FzCxoA0g==
+"@felvin-community/uuid@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/uuid/-/uuid-1.61.0.tgz#05bd71afb8fe8a7530457b259ddfd32adc2cc129"
+  integrity sha512-7JIzBI39R9bSIu12vaEBUioGFYOx7CESAASc0f1jATMKlu7EqlE/4VJvBODo4/oWO3pnuvNOKAmDsml5kOJCyg==
   dependencies:
     "@felvin-search/core" "^1.56.0"
     uuid "^8.3.2"
 
-"@felvin-community/website-icons@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/website-icons/-/website-icons-1.38.0.tgz#cb22b45351e63501d217a9d6e213dbc550ce4e78"
-  integrity sha512-8qgoiYha0oCj9NAPqPRzwI2o7ywkco+KzYLYfTUWB5j+kMxuWjzqw34XKweAhTo7LasEjrv3LnIpGno2tzR0QA==
+"@felvin-community/website-icons@^1.43.0":
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/website-icons/-/website-icons-1.43.0.tgz#fe9258c918402ae13c53693547ba758dbd600335"
+  integrity sha512-9EOh8eVujfilZUUHGAGfc1UAc0XDei4fPjE24Ezxhq3E9wc4NcrA+W3obgrrAKF7SJu28hxFp84k00mz8GhiiA==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/weight-converter@^1.53.0":
-  version "1.53.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/weight-converter/-/weight-converter-1.53.0.tgz#2fc9daf894223215bbd9e9d852dc8165a357333a"
-  integrity sha512-njMuCzdwFIgDXTjhznWlfNSRTvPpfgEh7DJfDhoIda3Zomf7RFOJnN3FgicX0j0ih3hvWPlqYs+WNrAn4gR4ew==
+"@felvin-community/weight-converter@^1.58.0":
+  version "1.58.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/weight-converter/-/weight-converter-1.58.0.tgz#3a9900e82c15b009be5d622122d1862eb06c5597"
+  integrity sha512-Wq16fBeKGcu5DJkDVhW4uXJJj8y9T3E2+TONf6XULJbNANVqbAimNl+umeCyL0YLELRBblyW0EEJJTU+VF0g7w==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/what-day@^1.28.0":
-  version "1.28.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/what-day/-/what-day-1.28.0.tgz#9729f0fa5624942a77aeee35307fa1cccb77f640"
-  integrity sha512-Qbp2a1z5zq5cYkoDIRmUj8i2j8bAlxIa8EumNDV3PGSKj19MJGcBG97HwoGNtnS17tFNsuMU8G8PF68DlwTZMw==
+"@felvin-community/what-day@^1.33.0":
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/what-day/-/what-day-1.33.0.tgz#822b055eb45d97c052d19eb9bcbc1b8ac8e29936"
+  integrity sha512-WLuYWDsYtXb16r+CTaDPcTEK+4FFO7fJQkYFw96ecMrgBQeXu3dCnPmjoSV1jhoTKrm12GXkdJp4IlPzVJX1bw==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-community/word-counter@^1.56.0":
-  version "1.56.0"
-  resolved "https://registry.yarnpkg.com/@felvin-community/word-counter/-/word-counter-1.56.0.tgz#9a5603b9d7c707aa7fea41bea372ed83ca6cc7f4"
-  integrity sha512-GXibDloVyjCw8PTVNyR2BbkYCpDONj05tuElLLaaRk5aj9VKhQPhkbCG90kAG2XBZyf/oGnl8PQB9aonSU1nsA==
+"@felvin-community/word-counter@^1.61.0":
+  version "1.61.0"
+  resolved "https://registry.yarnpkg.com/@felvin-community/word-counter/-/word-counter-1.61.0.tgz#bd2f5b6b64a6bde3e4e2f058e7c3b1d57f96eca7"
+  integrity sha512-aosdZZO2t6Jd44roabkWGuOx/O/9ocaGP84JTjvf8E/X67edMfy0NLnxPAOtvUAi1ZjWOXgMGpdpLbEi9sueeQ==
   dependencies:
     "@felvin-search/core" "^1.56.0"
 
-"@felvin-search/apps@^1.57.0":
-  version "1.57.0"
-  resolved "https://registry.yarnpkg.com/@felvin-search/apps/-/apps-1.57.0.tgz#ca4f177adb19cb9b967214365059e4249be8d2a6"
-  integrity sha512-VKwCjAdW3jyAa7PAOa9xVqW2mAe0gIFhmGwUvFcQKmBcBWXjFA+HYF3dLpeDrvcR7Qt5GcS3o6M00rP9/FhpWQ==
+"@felvin-search/apps@^1.62.0":
+  version "1.62.0"
+  resolved "https://registry.yarnpkg.com/@felvin-search/apps/-/apps-1.62.0.tgz#c322d38fccc28ac5393d30c672c0b510a330a473"
+  integrity sha512-BxRqfVip8JFGVBw0Ps/Y4RQTLUkTOjtd2FWtc0BH+ViV4DwFdJROs70hKUHLSe1HEEVBZ1FJIjNQv2SWkrEYQw==
   dependencies:
-    "@felvin-community/address-pincodes" "^1.15.0"
-    "@felvin-community/async-api-validator" "^1.54.0"
-    "@felvin-community/bouncy-ball" "^1.56.0"
-    "@felvin-community/capitals" "^1.56.0"
-    "@felvin-community/code-reference" "^1.25.0"
-    "@felvin-community/color-picker" "^1.49.0"
-    "@felvin-community/compressify" "^1.47.0"
-    "@felvin-community/convert-to-roman" "^1.10.0"
-    "@felvin-community/courier-tracker" "^1.56.0"
-    "@felvin-community/cron-parser" "^1.19.0"
-    "@felvin-community/crop-image" "^1.38.0"
-    "@felvin-community/crypto" "^1.38.0"
-    "@felvin-community/csv-to-json" "^1.56.0"
-    "@felvin-community/currency-convertor" "^1.56.0"
-    "@felvin-community/dice-roller" "^1.56.0"
-    "@felvin-community/dictionary" "^1.56.0"
-    "@felvin-community/flappy-bird" "^1.56.0"
-    "@felvin-community/flip-a-coin" "^1.49.0"
-    "@felvin-community/graph-plotter" "^1.56.0"
-    "@felvin-community/hello-world-in-different-languages" "^1.47.0"
-    "@felvin-community/http-status-codes" "^1.12.0"
-    "@felvin-community/image-uploader" "^1.37.0"
-    "@felvin-community/instant-app-details" "^1.31.0"
-    "@felvin-community/ip-address" "^1.54.0"
-    "@felvin-community/is-prime" "^1.13.0"
-    "@felvin-community/joke-generator" "^1.56.0"
-    "@felvin-community/json-formatter" "^1.56.0"
-    "@felvin-community/jwt-decoder" "^1.51.0"
-    "@felvin-community/latex-render" "^1.56.0"
-    "@felvin-community/live-markdown" "^1.51.0"
-    "@felvin-community/lorem-ipsum-generator" "^1.56.0"
-    "@felvin-community/markdown-to-html" "^1.51.0"
-    "@felvin-community/math" "^1.56.0"
-    "@felvin-community/merge-pdfs" "^1.48.0"
-    "@felvin-community/metronome" "^1.16.0"
-    "@felvin-community/morse-code-generator" "^1.54.0"
-    "@felvin-community/pokedex" "^1.44.0"
-    "@felvin-community/qr-code-generator" "^1.44.0"
-    "@felvin-community/random-string-generator" "^1.37.0"
-    "@felvin-community/regex" "^1.54.0"
-    "@felvin-community/screen-size" "^1.56.0"
-    "@felvin-community/snake-game" "^1.56.0"
-    "@felvin-community/stopwatch" "^1.26.0"
-    "@felvin-community/sudoku" "^1.38.0"
-    "@felvin-community/tetris" "^1.56.0"
-    "@felvin-community/tic-tac-toe" "^1.56.0"
-    "@felvin-community/time-at-place" "^1.56.0"
-    "@felvin-community/timer" "^1.56.0"
-    "@felvin-community/trending-on-github" "^1.44.0"
-    "@felvin-community/tv-shows" "^1.44.0"
-    "@felvin-community/unit-convertor" "^1.30.0"
-    "@felvin-community/unit-system" "^1.25.0"
-    "@felvin-community/unix-timestamp" "^1.32.0"
-    "@felvin-community/url-encoder-decoder" "^1.29.0"
-    "@felvin-community/url-shortener" "^1.44.0"
-    "@felvin-community/uuid" "^1.56.0"
-    "@felvin-community/website-icons" "^1.38.0"
-    "@felvin-community/weight-converter" "^1.53.0"
-    "@felvin-community/what-day" "^1.28.0"
-    "@felvin-community/word-counter" "^1.56.0"
+    "@felvin-community/address-pincodes" "^1.20.0"
+    "@felvin-community/async-api-validator" "^1.59.0"
+    "@felvin-community/bouncy-ball" "^1.61.0"
+    "@felvin-community/capitals" "^1.61.0"
+    "@felvin-community/code-reference" "^1.30.0"
+    "@felvin-community/color-picker" "^1.54.0"
+    "@felvin-community/compressify" "^1.52.0"
+    "@felvin-community/convert-to-roman" "^1.15.0"
+    "@felvin-community/courier-tracker" "^1.61.0"
+    "@felvin-community/cron-parser" "^1.24.0"
+    "@felvin-community/crop-image" "^1.43.0"
+    "@felvin-community/crypto" "^1.43.0"
+    "@felvin-community/csv-to-json" "^1.61.0"
+    "@felvin-community/currency-convertor" "^1.61.0"
+    "@felvin-community/dice-roller" "^1.61.0"
+    "@felvin-community/dictionary" "^1.61.0"
+    "@felvin-community/flappy-bird" "^1.61.0"
+    "@felvin-community/flip-a-coin" "^1.54.0"
+    "@felvin-community/graph-plotter" "^1.61.0"
+    "@felvin-community/hello-world-in-different-languages" "^1.52.0"
+    "@felvin-community/http-status-codes" "^1.17.0"
+    "@felvin-community/image-uploader" "^1.42.0"
+    "@felvin-community/instant-app-details" "^1.36.0"
+    "@felvin-community/ip-address" "^1.59.0"
+    "@felvin-community/is-prime" "^1.18.0"
+    "@felvin-community/joke-generator" "^1.61.0"
+    "@felvin-community/json-formatter" "^1.61.0"
+    "@felvin-community/json-to-csv" "^1.61.0"
+    "@felvin-community/jwt-decoder" "^1.56.0"
+    "@felvin-community/latex-render" "^1.61.0"
+    "@felvin-community/live-markdown" "^1.56.0"
+    "@felvin-community/lorem-ipsum-generator" "^1.61.0"
+    "@felvin-community/markdown-to-html" "^1.56.0"
+    "@felvin-community/math" "^1.61.0"
+    "@felvin-community/merge-pdfs" "^1.53.0"
+    "@felvin-community/metronome" "^1.21.0"
+    "@felvin-community/morse-code-generator" "^1.59.0"
+    "@felvin-community/pokedex" "^1.49.0"
+    "@felvin-community/qr-code-generator" "^1.49.0"
+    "@felvin-community/random-string-generator" "^1.42.0"
+    "@felvin-community/regex" "^1.59.0"
+    "@felvin-community/screen-size" "^1.61.0"
+    "@felvin-community/snake-game" "^1.61.0"
+    "@felvin-community/stopwatch" "^1.31.0"
+    "@felvin-community/sudoku" "^1.43.0"
+    "@felvin-community/tetris" "^1.61.0"
+    "@felvin-community/tic-tac-toe" "^1.61.0"
+    "@felvin-community/time-at-place" "^1.61.0"
+    "@felvin-community/timer" "^1.61.0"
+    "@felvin-community/trending-on-github" "^1.49.0"
+    "@felvin-community/tv-shows" "^1.49.0"
+    "@felvin-community/unit-convertor" "^1.35.0"
+    "@felvin-community/unit-system" "^1.30.0"
+    "@felvin-community/unix-timestamp" "^1.37.0"
+    "@felvin-community/url-encoder-decoder" "^1.34.0"
+    "@felvin-community/url-shortener" "^1.49.0"
+    "@felvin-community/uuid" "^1.61.0"
+    "@felvin-community/website-icons" "^1.43.0"
+    "@felvin-community/weight-converter" "^1.58.0"
+    "@felvin-community/what-day" "^1.33.0"
+    "@felvin-community/word-counter" "^1.61.0"
     "@felvin-search/core" "^1.56.0"
     react "^17.0.2"
     react-dom "^17.0.2"
